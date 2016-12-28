@@ -96,7 +96,7 @@ order: 1
 <hr><br>
 <div class="row service-row">
   <div class="col-md-6">
-    <div class="service-title">PASSIONATE <span class="add">SOLUTION</span></div>
+    <div class="service-title">PASSIONATE <span class="add">SOLUTIONS</span></div>
     <div class="service-desc"> We passionately deliver only the best possible services to our customers. We love what we're doing and you can profit from that. If we think another service provider might be able to help you better than us - we'll tell you right away.</div>
 
   </div>
