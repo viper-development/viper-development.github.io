@@ -1,1 +1,1 @@
-!["image"](/assets/images/screenshot.png)
+![image](/assets/images/screenshot.png)
