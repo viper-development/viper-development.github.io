@@ -1,0 +1,5 @@
+[Default]
+bears = SpaceConsistencyBear
+files = **.(html|css)
+ignore = vendors/**
+use_spaces = yeah

@@ -1,34 +1,33 @@
-<nav id="mainNav" class="navbar navbar-default navbar-fixed-top" style="z-index:99">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand page-scroll" href="#page-top">Viper Development</a>
-        </div>
+   <nav>
+      <div class="nav-wrapper">
+       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons menu-icon">menu</i></a>
+       <ul class=" full hide-on-med-and-down">
+  {% assign sorted_pages = site.pages | sort:"order" %}  
+  {% for node in sorted_pages %}
+  {% if node.order %}
+    {% if page.url == node.url %}
+      <li class="active"><a href="{{node.url | prepend: site.baseurl }}" class="active">{{node.title}}</a></li>
+    {% else %}
+      <li><a href="{{node.url | prepend: site.baseurl }}">{{node.title}}</a></li>
+    {% endif %}
+  {% endif %}
+  {% endfor %}
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a class="page-scroll" href="#testimonials">Testimonials</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#change">How We Deliver Change</a>
-                </li>
-                <!--<li>
-                    <a class="page-scroll" href="#portfolio">Portfolio</a>
-                </li>-->
-                <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container-fluid -->
-</nav>
+
+          </ul>
+
+      <ul class="side-nav" id="mobile-demo">
+       {% assign sorted_pages = site.pages | sort:"order" %}  
+  {% for node in sorted_pages %}
+  {% if node.order %}
+    {% if page.url == node.url %}
+      <li class="active"><a href="{{node.url | prepend: site.baseurl }}" class="active">{{node.title}}</a></li>
+    {% else %}
+      <li><a href="{{node.url | prepend: site.baseurl }}">{{node.title}}</a></li>
+    {% endif %}
+    {% endif %}
+
+  {% endfor %}
+     </ul>
+   </div>
+ </nav>
