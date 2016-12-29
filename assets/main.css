@@ -561,6 +561,7 @@ height: 35em;
   }
 .mailbtn {
       display: inline-flex !important;
+      width: 14em;
 }
 .mailicn{
   padding-left: 0.5em;
