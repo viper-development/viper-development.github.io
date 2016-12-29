@@ -3,6 +3,7 @@ layout: page
 title: "Disclaimer"
 ---
 
+<div class="container">
 <h1>Legal Disclosure</h1>
 
 Information in accordance with section 5 TMG<br/><br/>
@@ -20,7 +21,7 @@ Internetaddress: <a href="http://www.viperdev.io" target="_blank">www.viperdev.i
 
 VAT indentification number in accorance with section 27 a of the German VAT act<br/>
 DE306648090<br/>
-
+<div style="text-align: justify;">
 <h2>Disclaimer</h2>
 
 Accountability for content<br/>
@@ -42,3 +43,6 @@ This guarantees anonymized data collection by masking the last part of your IP a
 Further information concerning the terms and conditions of use and data privacy can be found at http://www.google.com/analytics/terms/gb.html or at http://www.google.com/intl/en_uk/analytics/privacyoverview.html
 
 Vector Credits: http://www.freepik.com
+
+</div>
+</div>
