@@ -27,7 +27,7 @@ order: 4
                 <div class="person-name">{{mem.name}}</div>
                 <div class="person-github-id">{{mem.id}}</div>
                 <div class="person-github-bio" ng-bind-html="mem.bio">
-                 
+
                 </div>
              </div>
            </div>
