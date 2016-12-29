@@ -13,10 +13,10 @@ order: 1
       <div class="col-md-12">
         <center> <br><br>
           <div class="col-md-6">
-            <img height=100 src="/viperdev-site/assets/images/1c.jpg">
+            <img height=100 src="../assets/images/1c.jpg">
           </div>
           <div class="col-md-6">
-            <img height=100 src="/viperdev-site/assets/images/2c.jpg">
+            <img height=100 src="../assets/images/2c.jpg">
           </div>
         </div>
       </div>
@@ -33,9 +33,9 @@ order: 1
      <div class="viper-subtitle">WE DELIVER</div>
      <div class="row change-row">
       <center>
-        <div class="col-md-4"><img height="100" src="/viperdev-site/assets/images/13.jpg"></div>
+        <div class="col-md-4"><img height="100" src="../assets/images/13.jpg"></div>
         <div class="col-md-4 dive-title change-dive">Change</div>
-        <div class="col-md-4"><img height="100" src="/viperdev-site/assets/images/13.jpg"></div>
+        <div class="col-md-4"><img height="100" src="../assets/images/13.jpg"></div>
       </center>
 
     </div>
@@ -57,7 +57,7 @@ order: 1
         <div class="service-desc"> We use and develop many parts of continuous integration on a daily basis. We love to share our experience with you by introducing your teams into those concepts with workshops or by working with your team for a while. </div>
       </div>
       <div class="col-md-6"><center>
-        <img class="responsive-img" src="/viperdev-site/assets/images/os2.png">
+        <img class="responsive-img" src="../assets/images/os2.png">
       </center>
     </div>
   </div>
@@ -75,7 +75,7 @@ order: 1
 <div class="row service-row">
   <div class="col-md-6">
     <center>
-      <img class="responsive-img" src="/viperdev-site/assets/images/4c.jpg">
+      <img class="responsive-img" src="../assets/images/4c.jpg">
     </center>
   </div>
   <div class="col-md-6">
@@ -96,13 +96,13 @@ order: 1
 <hr><br>
 <div class="row service-row">
   <div class="col-md-6">
-    <div class="service-title">PASSIONATE <span class="add">SOLUTION</span></div>
+    <div class="service-title">PASSIONATE <span class="add">SOLUTIONS</span></div>
     <div class="service-desc"> We passionately deliver only the best possible services to our customers. We love what we're doing and you can profit from that. If we think another service provider might be able to help you better than us - we'll tell you right away.</div>
 
   </div>
   <div class="col-md-6">
     <center>
-      <img class="responsive-img" src="/viperdev-site/assets/images/super.jpg">
+      <img class="responsive-img" src="../assets/images/super.jpg">
     </center>
   </div>
 </div>

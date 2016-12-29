@@ -1,5 +1,5 @@
 [Default]
 bears = SpaceConsistencyBear
-files = **.(html|css)
+files = **.(html|css|js|md)
 ignore = vendors/**
 use_spaces = yeah

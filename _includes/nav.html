@@ -2,7 +2,7 @@
       <div class="nav-wrapper">
        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons menu-icon">menu</i></a>
        <ul class=" full hide-on-med-and-down">
-  {% assign sorted_pages = site.pages | sort:"order" %}  
+  {% assign sorted_pages = site.pages | sort:"order" %}
   {% for node in sorted_pages %}
   {% if node.order %}
     {% if page.url == node.url %}
@@ -17,7 +17,7 @@
           </ul>
 
       <ul class="side-nav" id="mobile-demo">
-       {% assign sorted_pages = site.pages | sort:"order" %}  
+       {% assign sorted_pages = site.pages | sort:"order" %}
   {% for node in sorted_pages %}
   {% if node.order %}
     {% if page.url == node.url %}

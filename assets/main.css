@@ -78,7 +78,7 @@ nav{
 
   background-color: black;
 
- 
+
 }
 
 .viper-subtitle{
@@ -222,7 +222,7 @@ nav .side-nav li.active{
 
     border-bottom: 0px !important;
  background-color: rgba(0,0,0,0.05) !important;
-  
+
 }
 nav ul li.active {
   font-weight: 900 !important;
@@ -509,7 +509,7 @@ line-height: 1.5em;
   text-transform: uppercase;
   background-color:#607d8b !important;
   color: white;
-  
+
 }
 
 .quote-data{
@@ -525,7 +525,7 @@ height: 35em;
   text-transform: uppercase;
   background-color:#37474f !important;
   color: white;
-  
+
 }
 .small-fields{
  letter-spacing: 0.1em;
