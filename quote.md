@@ -27,7 +27,7 @@ order: 3
               </ul>
             </div>
             <div class="small-fields-group">
-           
+
           <div class="card-action small-fields-2">
             <div class="row sfr">
               <div class="duration col-md-12">{{plan.duration}}</div>

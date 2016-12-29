@@ -1,6 +1,6 @@
 var app = angular.module('viperdev', ['ngSanitize'])
 app.controller('Data', ['$http', function($http , $scope){
-	self = this;
+   	self = this;
 	self.profile = [
 		{
 			"name" : "Lasse Schuirmann",
@@ -8,18 +8,21 @@ app.controller('Data', ['$http', function($http , $scope){
 			"picture" : "https://avatars2.githubusercontent.com/u/5716520",
 			"bio": "Problem solver. Founder of <a href='http://coala.io'>coala</a>, <a href='http://gitmate.io'>GitMate</a> and viperdev and conference speaker."
 		},
+		
 		{
 			"name" : "Mischa Krüger",
 			"id" : "@Makman2",
 			"picture" : "https://avatars3.githubusercontent.com/u/6023916",
 			"bio": "Code & Review Junkie. <a href='http://coala.io'>coala</a> core developer and inventor of the open source CE3D terminal game engine."
 		},
+	
 		{
 			"name" : "Adhityaa Chandrasekar",
 			"id" : "@adtac",
 			"picture" : "https://avatars2.githubusercontent.com/u/7521600",
 			"bio": "Hardcore hacker. <a href='http://coala.io'>coala</a> core developer and creator of climate and fssb."
 		},
+		
 		{
 			"name" : "Maximilian Scholz",
 			"id" : "@sims1253",
@@ -27,23 +30,21 @@ app.controller('Data', ['$http', function($http , $scope){
 			"bio": "Community evangelist. Leader of the <a href='http://coala.io'>coala</a> community team and creator of the LineSpots algorithm."
 		},
 		
-                {
-                        "name" : "Sebastian Latacz",
-                        "id" : "@seblat",
-                        "picture": "https://avatars0.githubusercontent.com/u/18051901",
-                        "bio" : "Business expert. Founder of <a href='http://gitmate.io'>GitMate</a> and solver of the most complicated business problems."
-                },
-                {
+        {
+            "name" : "Sebastian Latacz",
+            "id" : "@seblat",
+            "picture": "https://avatars0.githubusercontent.com/u/18051901",
+            "bio" : "Business expert. Founder of <a href='http://gitmate.io'>GitMate</a> and solver of the most complicated business problems."
+        },
+        
+        {
 			"name" : "Hemang Kumar",
 			"id" : "@hemangsk",
 			"picture": "https://avatars1.githubusercontent.com/u/13018570",
-			"bio" : "Frontend lover. Creates and designs web frontends with passion."
+			"bio" : "<a href='http://coala.io'>coala</a> developer. Frontend lover. Creates and designs web frontends with passion."
 		}
 	]
 	
-
-
-
 	self.plans = [
 		{
 			"title" : "Code Quality Workshop",
@@ -56,6 +57,7 @@ app.controller('Data', ['$http', function($http , $scope){
 			"duration": "5-8 hours",
 			"price": "2000eur"	
 		},
+		
 		{
 			"title" : "Roadmap Session",
 			"subtitle": "Plan your project/engagement",
@@ -68,6 +70,7 @@ app.controller('Data', ['$http', function($http , $scope){
 			"duration": "2-8 hours",
 			"price": "500-1600eur"
 		},
+	
 		{
 			"title" : "Enhance your Code Quality",
 			"subtitle": "We work with your teams to implement new policies",
@@ -79,6 +82,7 @@ app.controller('Data', ['$http', function($http , $scope){
 			"duration": "1-4 weeks",
 			"price": "Price on request"	
 		},
+	
 		{
 			"title" : "Boost your Open Source Project",
 			"subtitle": "Partner with us to make your Open Source project a success",
@@ -90,9 +94,9 @@ app.controller('Data', ['$http', function($http , $scope){
 			],
 			"duration": "Flexible",
 			"price": "Price on request"
-}
-	]
-	
+		}
+    ]
+
 
 
 }])
