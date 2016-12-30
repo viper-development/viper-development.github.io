@@ -16,6 +16,21 @@ nav {
 
 
 }
+
+hr.sepr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333);
+}
+
+hr.mid-sepr {
+  border: 0;
+  height: 1.7px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
 .quotation{
        font-size: 2em;
      font-weight: 300;
@@ -85,7 +100,7 @@ nav{
   text-align: center;
   font-family: Roboto;
   letter-spacing: 0.2em;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 300;
 }
 

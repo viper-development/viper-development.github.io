@@ -54,6 +54,7 @@ order: 1
     <div class="row service-row">
       <div class="col-md-6">
         <div class="service-title">CONTINOUS <span class="workshops">INTEGRATION</span></div>
+        <hr class="sepr">
         <div class="service-desc"> We use and develop many parts of continuous integration on a daily basis. We love to share our experience with you by introducing your teams into those concepts with workshops or by working with your team for a while. </div>
       </div>
       <div class="col-md-6"><center>
@@ -62,7 +63,7 @@ order: 1
     </div>
   </div>
   <br>
-<hr>
+<hr class="mid-sepr">
   <div class="" href="#one!">
      <div class="quotation">
     Viper Development helped us save at least 2 million euro revenue per year with just a two week contract.
@@ -71,7 +72,7 @@ order: 1
   <div class="author-quote">Jozef Képesi, CTO at Skypicker</div>
 </div>
 
-<hr><br>
+<hr class="mid-sepr"><br>
 <div class="row service-row">
   <div class="col-md-6">
     <center>
@@ -80,12 +81,13 @@ order: 1
   </div>
   <div class="col-md-6">
     <div class="service-title">UNLOCKING THE TEAM'S <span class="add" style="color:crimson!important">POTENTIAL</span></div>
+    <hr class="sepr">
    <div class="service-desc">We offer workshops to get your teams up to speed when it comes to code quality. Topics include Working With Git, Finding the Perfect Development Workflow for Your Company or workshops customized to your needs. </div>
 
  </div>
 </div>
 <br>
- <hr>
+ <hr class="mid-sepr">
 <div class="" href="#two!">
 
   <div class="quotation">
@@ -93,10 +95,11 @@ order: 1
  </div>
  <div class="author-quote">Stanislav Komanec, Team Lead at Skypicker</div>
 </div>
-<hr><br>
+<hr class="mid-sepr"><br>
 <div class="row service-row">
   <div class="col-md-6">
     <div class="service-title">PASSIONATE <span class="add">SOLUTIONS</span></div>
+    <hr class="sepr">
     <div class="service-desc"> We passionately deliver only the best possible services to our customers. We love what we're doing and you can profit from that. If we think another service provider might be able to help you better than us - we'll tell you right away.</div>
 
   </div>
@@ -107,14 +110,14 @@ order: 1
   </div>
 </div>
 <br>
-<hr>
+<hr class="mid-sepr">
 <div class="" href="#three!">
   <div class="quotation">
    This social talk was the best I have heard in all the conferences this year! Being passionately, very practical and insightful - a rare combination.
  </div>
  <div class="author-quote">Dmitry Trofimov at PyCon DE, Team Lead at PyCharm</div>
 </div>
-<hr><br>
+<hr class="mid-sepr"><br>
 </div>
 </section>
 </section>
