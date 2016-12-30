@@ -4,40 +4,46 @@ app.controller('Data', ['$http', function($http , $scope){
 	self.profile = [
 		{
 			"name" : "Lasse Schuirmann",
-			"id" : "@sils",
+			"id" : "sils",
 			"picture" : "https://avatars2.githubusercontent.com/u/5716520",
-			"bio": "Problem solver. Founder of <a href='http://coala.io'>coala</a>, <a href='http://gitmate.io'>GitMate</a> and viperdev and conference speaker."
+			"short_tagline": "Problem solver",
+			"bio": "Founder of <a href='http://coala.io'>coala</a>, <a href='http://gitmate.io'>GitMate</a> and viperdev and conference speaker."
 		},
 		{
 			"name" : "Mischa Krüger",
-			"id" : "@Makman2",
+			"id" : "Makman2",
 			"picture" : "https://avatars3.githubusercontent.com/u/6023916",
-			"bio": "Code & Review Junkie. <a href='http://coala.io'>coala</a> core developer and inventor of the open source CE3D terminal game engine."
+			"short_tagline": "Code & Review Junkie",
+			"bio": "<a href='http://coala.io'>coala</a> core developer and inventor of the open source CE3D terminal game engine."
 		},
 		{
 			"name" : "Adhityaa Chandrasekar",
-			"id" : "@adtac",
+			"id" : "adtac",
 			"picture" : "https://avatars2.githubusercontent.com/u/7521600",
-			"bio": "Hardcore hacker. <a href='http://coala.io'>coala</a> core developer and creator of climate and fssb."
+			"short_tagline": "Hardcore hacker",
+			"bio": "<a href='http://coala.io'>coala</a> core developer and creator of climate and fssb."
 		},
 		{
 			"name" : "Maximilian Scholz",
-			"id" : "@sims1253",
+			"id" : "sims1253",
 			"picture" : "https://avatars3.githubusercontent.com/u/6530123",
-			"bio": "Community evangelist. Leader of the <a href='http://coala.io'>coala</a> community team and creator of the LineSpots algorithm."
+			"short_tagline": "Community evangelist",
+			"bio": "Leader of the <a href='http://coala.io'>coala</a> community team and creator of the LineSpots algorithm."
 		},
 		
                 {
                         "name" : "Sebastian Latacz",
-                        "id" : "@seblat",
+                        "id" : "seblat",
                         "picture": "https://avatars0.githubusercontent.com/u/18051901",
-                        "bio" : "Business expert. Founder of <a href='http://gitmate.io'>GitMate</a> and solver of the most complicated business problems."
+                        "short_tagline":"Business expert",
+                        "bio" : "Founder of <a href='http://gitmate.io'>GitMate</a> and solver of the most complicated business problems."
                 },
                 {
 			"name" : "Hemang Kumar",
-			"id" : "@hemangsk",
+			"id" : "hemangsk",
 			"picture": "https://avatars1.githubusercontent.com/u/13018570",
-			"bio" : "Frontend lover. Creates and designs web frontends with passion."
+			"short_tagline":"Frontend Enthusiast",
+			"bio" : "<a href='http://coala.io'>coala</a> developer. Frontend lover. Creates and designs web frontends with passion."
 		}
 	]
 	
