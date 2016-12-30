@@ -53,7 +53,7 @@ order: 1
   <div class="container">
     <div class="row service-row">
       <div class="col-md-6">
-        <div class="service-title">CONTINOUS <span class="workshops">INTEGRATION</span></div>
+        <div class="service-title">CONTINUOUS <span class="workshops">INTEGRATION</span></div>
         <hr class="sepr">
         <div class="service-desc"> We use and develop many parts of continuous integration on a daily basis. We love to share our experience with you by introducing your teams into those concepts with workshops or by working with your team for a while. </div>
       </div>
