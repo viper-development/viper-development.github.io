@@ -51,7 +51,7 @@ order: 3
 <div class="dive-title">Looking for a personalised plan ?</div>
 <center><div class="dive-small-title">Just drop us a mail at <a href="mailto:contact@viperdev.io">contact@viperdev.io</a></div></center>
 <br><br>
-<hr>
+<hr class="mid-sepr">
 <div class="" href="#one!">
   <div class="quotation">
    Viper Development found a solution that I would have never thought about way above expectations and below budget.
@@ -59,7 +59,7 @@ order: 3
 
  <div class="author-quote">Hannes W. Lampe, Researcher</div>
 </div>
-<hr>
+<hr class="mid-sepr">
 </div>
 </div>
 <br>

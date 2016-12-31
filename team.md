@@ -36,14 +36,14 @@ order: 4
      </div>
    </div>
  </div>
- <hr>
+ <hr class="mid-sepr">
  <div class="" href="#one!">
       <div class="quotation">
       The team's response time was mind blowing - I could get any question answered within minutes!
 </div>
 <div class="author-quote">Viktoria Boss, Researcher</div>
     </div>
-    <hr>
+    <hr class="mid-sepr">
 </div>
 
 <br><br>
