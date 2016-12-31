@@ -19,24 +19,24 @@ nav {
 
 hr.sepr {
   border: 0;
-  height: 1px;
+  height: 2px;
   background: #333;
-  background-image: -moz-linear-gradient(to right, #ccc, #333);
-  background-image: -webkit-linear-gradient(to right, #ccc, #333);
-  background-image: -webkit-gradient(linear, to right, from(#ccc), to(#333));
-  background-image: -ms-linear-gradient(to right, #ccc, #333);
-  background-image: -o-linear-gradient(to right, #ccc, #333);
+  background-image: -moz-linear-gradient(to left, #ccc, #333);
+  background-image: -webkit-linear-gradient(to left, #ccc, #333);
+  background-image: -webkit-gradient(linear, to left, from(#ccc), to(#333));
+  background-image: -ms-linear-gradient(to left, #ccc, #333);
+  background-image: -o-linear-gradient(to left, #ccc, #333);
 }
 
 hr.mid-sepr {
   border: 0;
-  height: 2px;
+  height: 1px;
   background: #333;
-  background-image: -moz-linear-gradient(to right, #ccc, #333, #ccc);
-  background-image: -webkit-linear-gradient(to right, #ccc, #333, #ccc);
-  background-image: -webkit-gradient(linear, to right, from(#ccc), color-stop(#333), to(#ccc));
-  background-image: -ms-linear-gradient(to right, #ccc, #333, #ccc);
-  background-image: -o-linear-gradient(to right, #ccc, #333, #ccc);
+  background-image: -moz-linear-gradient(to left, #ccc, #333, #ccc);
+  background-image: -webkit-linear-gradient(to left, #ccc, #333, #ccc);
+  background-image: -webkit-gradient(linear, to left, from(#ccc), color-stop(#333), to(#ccc));
+  background-image: -ms-linear-gradient(to left, #ccc, #333, #ccc);
+  background-image: -o-linear-gradient(to left, #ccc, #333, #ccc);
 }
 
 .quotation{
