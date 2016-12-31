@@ -23,30 +23,21 @@ order: 1
     </div>
   </div>
   <br><br>
-  <section>
-  </section>
 </section>
 <section id="test2">
   <div class="container">
-   <div >
-     <br>
-     <div class="viper-subtitle">WE DELIVER</div>
-     <div class="row change-row">
-      <center>
-        <div class="col-md-4"><img height="100" src="../assets/images/13.jpg"></div>
-        <div class="col-md-4 dive-title change-dive">Change</div>
-        <div class="col-md-4"><img height="100" src="../assets/images/13.jpg"></div>
-      </center>
-
-    </div>
-    <div class="viper-subtitle">TO YOUR BUSINESS</div>
-    <br><br>
-    <div class="viper-subtitle">BROUGHT TO YOU BY THE CREATORS OF <span style='letter-spacing: 0px !important'><a href="http://coala.io">coala</a></span> &amp; <span style='letter-spacing: 0px !important'><a href="http://gitmate.io">GitMate</a></span></div>
-    <div class="images row">
-
-
-    </div>
+   <br>
+   <div class="viper-subtitle">WE DELIVER</div>
+   <div class="row change-row">
+    <center>
+      <div class="col-md-4"><img height="100" src="../assets/images/13.jpg"></div>
+      <div class="col-md-4 dive-title change-dive">Change</div>
+      <div class="col-md-4"><img height="100" src="../assets/images/13.jpg"></div>
+    </center>
   </div>
+  <div class="viper-subtitle">TO YOUR BUSINESS</div>
+  <br><br>
+  <div class="viper-subtitle">BROUGHT TO YOU BY THE CREATORS OF <span style='letter-spacing: 0px !important'><a href="http://coala.io">coala</a></span> &amp; <span style='letter-spacing: 0px !important'><a href="http://gitmate.io">GitMate</a></span></div>
 </div>
 <br><br>
 <section>
@@ -63,9 +54,9 @@ order: 1
     </div>
   </div>
   <br>
-<hr class="mid-sepr">
+  <hr class="mid-sepr">
   <div class="" href="#one!">
-     <div class="quotation">
+   <div class="quotation">
     Viper Development helped us save at least 2 million euro revenue per year with just a two week contract.
   </div>
 
@@ -82,12 +73,12 @@ order: 1
   <div class="col-md-6">
     <div class="service-title">UNLOCKING THE TEAM'S <span class="add" style="color:crimson!important">POTENTIAL</span></div>
     <hr class="sepr">
-   <div class="service-desc">We offer workshops to get your teams up to speed when it comes to code quality. Topics include Working With Git, Finding the Perfect Development Workflow for Your Company or workshops customized to your needs. </div>
+    <div class="service-desc">We offer workshops to get your teams up to speed when it comes to code quality. Topics include Working With Git, Finding the Perfect Development Workflow for Your Company or workshops customized to your needs. </div>
 
- </div>
+  </div>
 </div>
 <br>
- <hr class="mid-sepr">
+<hr class="mid-sepr">
 <div class="" href="#two!">
 
   <div class="quotation">
@@ -116,9 +107,9 @@ order: 1
    This social talk was the best I have heard in all the conferences this year! Being passionately, very practical and insightful - a rare combination.
  </div>
  <div class="author-quote">Dmitry Trofimov at PyCon DE, Team Lead at PyCharm</div>
+</div><!--  # Ignore MarkdownBear -->
+<hr class="mid-sepr"><br><!--  # Ignore MarkdownBear -->
 </div>
-<hr class="mid-sepr"><br>
-</div>
 </section>
-</section>
-</section>
+</section><!--  # Ignore MarkdownBear -->
+
