@@ -88,4 +88,15 @@ order: 3
   .disclaimer-pricing{
     text-align: center;
   }
+
+  hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: -moz-linear-gradient(to left, #ccc, #333, #ccc);
+  background-image: -webkit-linear-gradient(to left, #ccc, #333, #ccc);
+  background-image: -webkit-gradient(linear, to left, from(#ccc), color-stop(#333), to(#ccc));
+  background-image: -ms-linear-gradient(to left, #ccc, #333, #ccc);
+  background-image: -o-linear-gradient(to left, #ccc, #333, #ccc);
+  }
 </style>
