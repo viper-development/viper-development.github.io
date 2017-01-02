@@ -11,12 +11,12 @@ order: 1
     <div class="viper-subtitle">THE LEADING EDGE WAY TO IMPROVE CODE QUALITY</div>
     <div class="images row">
       <div class="col-md-12">
-        <center> <br><br>
+        <br><br>
           <div class="col-md-6">
-            <img height=100 src="../assets/images/1c.jpg">
+            <img class="responsive-img center-block" src="../assets/images/1c.jpg">
           </div>
           <div class="col-md-6">
-            <img height=100 src="../assets/images/2c.jpg">
+            <img class="responsive-img center-block" src="../assets/images/2c.jpg">
           </div>
         </div>
       </div>
@@ -31,10 +31,10 @@ order: 1
    <div >
      <br>
      <div class="viper-subtitle">WE DELIVER</div>
-     <div class="row change-row text-center">
-        <div class="col-md-4"><img height="100" src="../assets/images/13.jpg"></div>
+     <div class="row change-row">
+        <div class="col-md-4"><img height=100 class="center-block" src="../assets/images/13.jpg"></div>
         <div class="col-md-4 dive-title change-dive">Change</div>
-        <div class="col-md-4"><img height="100" src="../assets/images/13.jpg"></div>
+        <div class="col-md-4"><img height=100 class="center-block" src="../assets/images/13.jpg"></div>
 
     </div>
     <div class="viper-subtitle">TO YOUR BUSINESS</div>
@@ -55,11 +55,11 @@ order: 1
         <hr class="sepr">
         <div class="service-desc"> We use and develop many parts of continuous integration on a daily basis. We love to share our experience with you by introducing your teams into those concepts with workshops or by working with your team for a while. </div>
       </div>
-      <div class="col-md-6 col-xs-12 text-center">
-        <img class="responsive-img" src="../assets/images/os2.png">
+      <div class="col-md-6 col-xs-12">
+        <img class="responsive-img center-block" src="../assets/images/os2.png">
     </div>
   </div>
-  <br>
+  <br><br>
 <hr class="mid-sepr">
   <div class="" href="#one!">
      <div class="quotation">
@@ -69,10 +69,10 @@ order: 1
   <div class="author-quote">Jozef Képesi, CTO at Skypicker</div>
 </div>
 
-<hr class="mid-sepr"><br>
+<hr class="mid-sepr"><br><br>
 <div class="row">
-  <div class="col-md-6 col-xs-12 text-center">
-      <img class="responsive-img" src="../assets/images/4c.jpg">
+  <div class="col-md-6 col-xs-12">
+      <img class="responsive-img center-block" src="../assets/images/4c.jpg">
   </div>
   <div class="col-md-6 col-xs-12">
     <div class="service-title">UNLOCKING THE TEAM'S <span class="add" style="color:crimson!important">POTENTIAL</span></div>
@@ -81,7 +81,7 @@ order: 1
 
  </div>
 </div>
-<br>
+<br><br>
  <hr class="mid-sepr">
 <div class="" href="#two!">
 
@@ -90,7 +90,7 @@ order: 1
  </div>
  <div class="author-quote">Stanislav Komanec, Team Lead at Skypicker</div>
 </div>
-<hr class="mid-sepr"><br>
+<hr class="mid-sepr"><br><br>
 <div class="row">
   <div class="col-md-6 col-xs-12">
     <div class="service-title">PASSIONATE <span class="add">SOLUTIONS</span></div>
@@ -98,11 +98,11 @@ order: 1
     <div class="service-desc"> We passionately deliver only the best possible services to our customers. We love what we're doing and you can profit from that. If we think another service provider might be able to help you better than us - we'll tell you right away.</div>
 
   </div>
-  <div class="col-md-3 col-md-offset-2 col-xs-12 text-center">
-      <img class="responsive-img" src="../assets/images/super.jpg">
+  <div class="col-md-3 col-md-offset-2 col-xs-12">
+      <img class="responsive-img center-block" src="../assets/images/super.jpg">
   </div>
 </div>
-<br>
+<br><br>
 <hr class="mid-sepr">
 <div class="" href="#three!">
   <div class="quotation">
@@ -110,7 +110,7 @@ order: 1
  </div>
  <div class="author-quote">Dmitry Trofimov at PyCon DE, Team Lead at PyCharm</div>
 </div>
-<hr class="mid-sepr"><br>
+<hr class="mid-sepr"><br><br>
 </div>
 </section>
 </section>
