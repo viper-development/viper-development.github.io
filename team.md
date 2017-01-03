@@ -3,6 +3,7 @@ layout: page
 title: "Meet the Team"
 order: 4
 ---
+
 <div ng-app="viperdev">
 <div ng-controller="Data as dc">
 <section id="test1">
@@ -15,7 +16,6 @@ order: 4
       <div class="col-md-12">
         <div class="container">
           <div class="row showcase-gi">
-
           <div ng-repeat="mem in dc.profile"  class="card card-main showcase-card-gi">
              <div class="empty">
              </div>
@@ -45,47 +45,7 @@ order: 4
     </div>
     <hr class="mid-sepr">
 </div>
-
 <br><br>
-<section>
-</section>
 </section>
 </div>
 </div>
-
-<style type="text/css">
-  .showcase-gi{
-    margin-left: 0em !important;
-    margin-right: 0em !important;
-  }
-
-  .person-github-bio > a{
-    text-transform: none !important;
-    margin-right: 0em !important;
-  }
-
-   .person-github-id > a{
-    text-transform: none !important;
-    margin-right: 0em !important;
-    color: whitesmoke !important;
-    cursor: auto !important;
-  }
-
-  .person-github-id > a:hover {
-    text-transform: none !important;
-    margin-right: 0em !important;
-    color: orange !important;
-    cursor: auto !important;
-  }
-
-
-  .person-short-tagline{
-    padding: 0.2em;
-    text-align: center;
-    text-transform: uppercase !important;
-    letter-spacing: 0.1em;
-    color: whitesmoke;
-    font-size: 12px;
-    font-weight: 500;
-  }
-</style>

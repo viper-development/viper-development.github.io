@@ -7,7 +7,6 @@ install: gem install jekyll
 script: jekyll build
 
 env:
-  global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true 
-
-sudo: false 
+  global:  # Ignore YAMLLintBear because indentation required
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # Ignore YAMLLintBear
+sudo: false
