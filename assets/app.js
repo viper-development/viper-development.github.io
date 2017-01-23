@@ -67,7 +67,7 @@ app.controller('Data', ['$http', function($http , $scope){
                 "We help maintaining the project and keeping the community healthy",
                 "We engage newcomers to raise a thriving community"
             ],
-            "price": "1500eur/mon, 2000eur setup fee"
+            "price": "1500eur/mon<br>2000eur setup fee"
         }
     ]
 

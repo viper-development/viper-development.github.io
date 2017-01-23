@@ -32,7 +32,7 @@ order: 1
                     <div class="small-fields-group">
                       <div class="card-action  small-fields">
                         <div class="row sfr">
-                          <div class="price-range col-md-12">{{plan.price}}</div>
+                          <div ng-bind-html="plan.price" class="price-range col-md-12"></div>
                         </div>
                       </div>
                     </div>
