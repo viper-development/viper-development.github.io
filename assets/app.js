@@ -30,15 +30,14 @@ app.controller('Data', ['$http', function($http , $scope){
             "short_tagline": "Community evangelist",
             "bio": "Leader of the <a href='http://coala.io'>coala</a> community team and creator of the LineSpots algorithm."
         },
-
-                {
-                        "name" : "Sebastian Latacz",
-                        "id" : "seblat",
-                        "picture": "https://avatars0.githubusercontent.com/u/18051901",
-                        "short_tagline":"Business expert",
-                        "bio" : "Founder of <a href='http://gitmate.io'>GitMate</a> and solver of the most complicated business problems."
-                },
-                {
+        {
+            "name" : "Sebastian Latacz",
+            "id" : "seblat",
+            "picture": "https://avatars0.githubusercontent.com/u/18051901",
+            "short_tagline":"Business expert",
+            "bio" : "Founder of <a href='http://gitmate.io'>GitMate</a> and solver of the most complicated business problems."
+        },
+        {
             "name" : "Hemang Kumar",
             "id" : "hemangsk",
             "picture": "https://avatars1.githubusercontent.com/u/13018570",
@@ -96,7 +95,7 @@ app.controller('Data', ['$http', function($http , $scope){
             ],
             "duration": "Flexible",
             "price": "Price on request"
-}
+        }
     ]
 
 
