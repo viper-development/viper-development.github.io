@@ -7,16 +7,9 @@
         <br>
         <span class="footer-navigation">Navigation</span>
         <ul class="footer-nav-links">
-          {% assign sorted_pages = site.pages | sort:"order" %}
-          {% for node in sorted_pages %}
-          {% if node.order %}
-          {% if page.url == node.url %}
-          <li class="active"><a href="{{node.url | prepend: site.baseurl }}" class="active">{{node.title}}</a></li>
-          {% else %}
-          <li><a href="{{node.url | prepend: site.baseurl }}">{{node.title}}</a></li>
-          {% endif %}
-          {% endif %}
-          {% endfor %}
+          <li><a href="/">Home</a></li>
+          <li><a href="/quote.html">About Us</a></li>
+          <li><a href="/team.html">Meet the Team</a></li>
         </ul>
       </div>
       <div class="col-md-4 col-md-offset-2 col-xs-12">

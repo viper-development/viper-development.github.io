@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html ng-app="viperdev">
+
+<head>
+
+  <title>Viper Development</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="3MxLuQtEelSh5nHREm_lnsR9IRUOFCy6crcXLdK_v7Y">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-sanitize.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="/assets/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="/assets/app.js" type="application/javascript"></script>
+  <script src="/assets/gitter.js"></script>
+  <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+  <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+  <script src="/assets/sidenav.js"></script>
+  <script src="/assets/analytics.js"></script>
+
+</head>
+
+<body>
+  <main>
+    <ng-include src="'includes/nav.html'"></ng-include>
+
+    <div ng-controller="Data as dc">
+      <section id="test1">
+        <div class="container">
+          <div>
+            <div class="dive-title">Meet the Team</div>
+            <div class="viper-subtitle">OUR CONTRACTORS WHO ARE WORKING TOWARDS YOUR NEEDS</div>
+            <br><br>
+            <div class="images row">
+              <div class="col-md-12">
+                <div class="container">
+                  <div class="showcase-gi">
+                    <div ng-repeat="mem in dc.profile" class="card card-main showcase-card-gi">
+                      <div class="empty">
+                      </div>
+                      <div class="card-action profile-data">
+                        <center>
+                          <img class="profile-img" ng-src={{mem.picture}} height="110">
+                        </center>
+                        <br>
+                        <div class="person-name">{{mem.name}}</div>
+                        <div class="person-short-tagline">{{mem.short_tagline}}</div>
+                        <div class="person-github-id"><a ng-href="http://github.com/{{mem.id}}">@{{mem.id}}</a></div>
+                        <div class="person-github-bio" ng-bind-html="mem.bio">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="mid-sepr">
+          <div class="" href="#one!">
+            <div class="quotation">
+              The team's response time was mind blowing - I could get any question answered within minutes!
+            </div>
+            <div class="author-quote">Viktoria Boss, Researcher</div>
+          </div>
+          <hr class="mid-sepr">
+        </div>
+        <br><br>
+      </section>
+    </div>
+
+  </main>
+  <ng-include src="'includes/footer.html'"></ng-include>
+
+  <ng-include src="'includes/github.html'"></ng-include>
+
+</body>
+
+</html>
