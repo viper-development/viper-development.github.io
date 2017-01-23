@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html ng-app="viperdev">
+
+<head>
+
+  <title>Viper Development</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="3MxLuQtEelSh5nHREm_lnsR9IRUOFCy6crcXLdK_v7Y">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-sanitize.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="/assets/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="/assets/app.js" type="application/javascript"></script>
+  <script src="/assets/gitter.js"></script>
+  <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+  <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+  <script src="/assets/sidenav.js"></script>
+  <script src="/assets/analytics.js"></script>
+
+</head>
+
+<body>
+  <main>
+    <ng-include src="'/includes/nav.html'"></ng-include>
+    <div>
+      <div ng-controller="Data as dc">
+        <section id="test1">
+          <div class="container">
+            <div>
+              <div class="dive-title">Request a Quote</div>
+              <div class="viper-subtitle">HERE'S WHAT WE DO BEST</div>
+              <br><br>
+              <div class="images row">
+                <div class="col-md-12">
+                  <div class="container">
+                    <div class="showcase-gi">
+                      <div ng-repeat="plan in dc.plans" class="card card-main showcase-card-gi-quote">
+                        <div class="empty-quote">
+                          <div class="name-quote">{{plan.title}}</div>
+                          <div class="small-name-quote">{{ plan.subtitle }}</div>
+                        </div>
+                        <div class="card-action quote-data plans">
+                          <ul type="square">
+                            <li ng-repeat="feature in plan.features">{{ feature }}</li>
+                          </ul>
+                        </div>
+                        <div class="small-fields-group">
+                          <div class="card-action small-fields-2">
+                            <div class="row sfr">
+                              <div class="duration col-md-12">{{plan.duration}}</div>
+                            </div>
+                          </div>
+                          <div class="card-action  small-fields">
+                            <div class="row sfr">
+                              <div class="price-range col-md-12">{{plan.price}}</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class="disclaimer-pricing">All prices are exclusive VAT. If the engagement happens on your premises, you will be responsible for covering travel and accommodation cost.</div>
+
+            <div class="dive-title">Looking for a personalised plan ?</div>
+            <center>
+              <div class="dive-small-title">Just drop us a mail at <a href="mailto:contact@viperdev.io">contact@viperdev.io</a></div>
+            </center>
+            <br><br>
+            <hr class="mid-sepr">
+            <div class="" href="#one!">
+              <div class="quotation">
+                Viper Development found a solution that I would have never thought about way above expectations and below budget.
+              </div>
+              <div class="author-quote">Hannes W. Lampe, Researcher</div>
+            </div>
+            <hr class="mid-sepr">
+          </div>
+      </div>
+      <br>
+      <section>
+      </section>
+      </section>
+    </div>
+    </div>
+
+  </main>
+  <ng-include src="'includes/footer.html'"></ng-include>
+  <ng-include src="'includes/github.html'"></ng-include>
+
+</body>
+
+</html>
