@@ -4,106 +4,67 @@ title: "Home"
 order: 1
 ---
 
-<section id="test1">
-  <div class="container">
-   <div >
-    <div class="title">viperdev</div>
-    <div class="viper-subtitle">THE LEADING EDGE WAY TO IMPROVE CODE QUALITY</div>
-    <div class="images row">
-      <div class="col-md-12">
-        <br><br>
-          <div class="col-md-6">
-            <img class="responsive-img center-block" src="../assets/images/1c.jpg">
-          </div>
-          <div class="col-md-6">
-            <img class="responsive-img center-block" src="../assets/images/2c.jpg">
+<div ng-app="viperdev">
+  <div ng-controller="Data as dc">
+    <section id="test1">
+      <div class="container">
+        <div>
+          <div class="dive-title">Request a Quote</div>
+          <div class="viper-subtitle">HERE'S WHAT WE DO BEST</div>
+          <br><br>
+          <div class="images row">
+            <div class="col-md-12">
+              <div class="container">
+                <div class="row showcase-gi">
+                  <div ng-repeat="plan in dc.plans" class="card card-main showcase-card-gi-quote">
+                    <div class="empty-quote">
+                      <div class="name-quote">{{plan.title}}</div>
+                      <div class="small-name-quote">{{ plan.subtitle }}</div>
+                    </div>
+                    <div class="card-action quote-data plans">
+                      <ul type="square">
+                        <li ng-repeat="feature in plan.features">{{ feature }}</li>
+                      </ul>
+                    </div>
+                    <div class="small-fields-group">
+                      <div class="card-action small-fields-2">
+                        <div class="row sfr">
+                          <div class="duration col-md-12">{{plan.duration}}</div>
+                        </div>
+                      </div>
+                      <div class="card-action  small-fields">
+                        <div class="row sfr">
+                          <div class="price-range col-md-12">{{plan.price}}</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+        <div class="container">
+          <div class="disclaimer-pricing">All prices are exclusive VAT. If the engagement happens on your premises, you will be responsible for covering travel and accommodation cost.</div>
+        </div>
+        <div class="dive-title">Looking for a personalised plan ?</div>
+        <center>
+          <div class="dive-small-title">Just drop us a mail at <a href="mailto:contact@viperdev.io">contact@viperdev.io</a></div>
+        </center>
+        <br><br>
+        <hr class="mid-sepr">
+        <div class="" href="#one!">
+          <div class="quotation">
+            Viper Development found a solution that I would have never thought about way above expectations and below budget.
+          </div>
+          <div class="author-quote">Hannes W. Lampe, Researcher</div>
+        </div>
+        <hr class="mid-sepr">
       </div>
-    </div>
   </div>
-  <br><br>
+  <br>
   <section>
   </section>
-</section>
-<section id="test2">
-  <div class="container">
-   <div>
-     <br>
-     <div class="viper-subtitle">WE DELIVER</div>
-     <div class="row change-row">
-        <div class="col-md-4"><img height=100 class="center-block" src="../assets/images/13.jpg"></div>
-        <div class="col-md-4 dive-title change-dive">Change</div>
-        <div class="col-md-4"><img height=100 class="center-block" src="../assets/images/13.jpg"></div>
-    </div>
-    <div class="viper-subtitle">TO YOUR BUSINESS</div>
-    <br><br>
-    <div class="viper-subtitle">BROUGHT TO YOU BY THE CREATORS OF <span style='letter-spacing: 0px !important'><a href="http://coala.io">coala</a></span> &amp; <span style='letter-spacing: 0px !important'><a href="http://gitmate.io">GitMate</a></span></div>
-    <div class="images row">
-    </div>
-  </div>
+  </section>
 </div>
-<br><br>
-<section>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-xs-12">
-        <div class="service-title">CONTINUOUS <span class="workshops">INTEGRATION</span></div>
-        <hr class="sepr">
-        <div class="service-desc"> We use and develop many parts of continuous integration on a daily basis. We love to share our experience with you by introducing your teams into those concepts with workshops or by working with your team for a while. </div>
-      </div>
-      <div class="col-md-6 col-xs-12">
-        <img class="responsive-img center-block" src="../assets/images/os2.png">
-    </div>
-  </div>
-  <br><br>
-<hr class="mid-sepr">
-  <div class="" href="#one!">
-  <div class="quotation">
-    Viper Development helped us save at least 2 million euro revenue per year with just a two week contract.
-  </div>
-  <div class="author-quote">Jozef Képesi, CTO at Skypicker</div>
 </div>
-<hr class="mid-sepr"><br><br>
-<div class="row">
-  <div class="col-md-6 col-xs-12">
-      <img class="responsive-img center-block" src="../assets/images/4c.jpg">
-  </div>
-  <div class="col-md-6 col-xs-12">
-    <div class="service-title">UNLOCKING THE TEAM'S <span class="add" style="color:crimson!important">POTENTIAL</span></div>
-    <hr class="sepr">
-   <div class="service-desc">We offer workshops to get your teams up to speed when it comes to code quality. Topics include Working With Git, Finding the Perfect Development Workflow for Your Company or workshops customized to your needs. </div>
- </div>
-</div>
-<br><br>
- <hr class="mid-sepr">
-<div class="" href="#two!">
-  <div class="quotation">
-   Viper Development brought new ideas into our system. Their empathy and leadership skills have persuaded developers to want to give up legacy code and difficult habits.
- </div>
- <div class="author-quote">Stanislav Komanec, Team Lead at Skypicker</div>
-</div>
-<hr class="mid-sepr"><br><br>
-<div class="row">
-  <div class="col-md-6 col-xs-12">
-    <div class="service-title">PASSIONATE <span class="add">SOLUTIONS</span></div>
-    <hr class="sepr">
-    <div class="service-desc"> We passionately deliver only the best possible services to our customers. We love what we're doing and you can profit from that. If we think another service provider might be able to help you better than us - we'll tell you right away.</div>
-  </div>
-  <div class="col-md-3 col-md-offset-2 col-xs-12">
-      <img class="responsive-img center-block" src="../assets/images/super.jpg">
-  </div>
-</div>
-<br><br>
-<hr class="mid-sepr">
-<div class="" href="#three!">
-  <div class="quotation">
-   This social talk was the best I have heard in all the conferences this year! Being passionately, very practical and insightful - a rare combination.
- </div>
- <div class="author-quote">Dmitry Trofimov at PyCon DE, Team Lead at PyCharm</div>
-</div>
-<hr class="mid-sepr"><br><br>
-</div>
-</section>
-</section>
-</section>
