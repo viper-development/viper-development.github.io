@@ -51,47 +51,23 @@ app.controller('Data', ['$http', function($http , $scope){
             "title" : "Monthly Quality Session",
             "subtitle": "Level up - one step every month.",
             "features" : [
-                "We help you with code quality and team process problems on a monthly basis, saving lots of developer hours wasted on research and ending up with the wrong tool",
-                "One remote up to one-hour session about your problems per month",
-                "If we can't help you right away, we'll research potential solutions for you",
-                "Free trial: if you cancel during any month that one is free"
+                "Talk through your problems (up to an hour)",
+                "Get a summary of your main issues",
+                "3 recommendations on solutions",
+                "Follow up at the end of the month",
+                "You get a recurring ROI with every single session"
             ],
-            "duration": "1 hour/mon+",
             "price": "800eur/mon"
-        },
-        {
-            "title" : "Code Quality Workshop",
-            "subtitle": "Level up your team - reduce downtimes!",
-            "features" : [
-                "Learn practically about git, continuous integration and code review",
-                "Define a development workflow with and for your teams",
-                "Lock out bad code despite practical restrictions"
-            ],
-            "duration": "5-8 hours",
-            "price": "2000eur"
-        },
-        {
-            "title" : "Enhance your Code Quality and Team Processes",
-            "subtitle": "We work with your teams to implement new policies",
-            "features" : [
-                "Access our domain experience about code quality, development processes and open source on site",
-                "Get rid of downtimes",
-                "Save developer time",
-                "Get cleaner and more stable code"
-            ],
-            "duration": "1-4 weeks",
-            "price": "Price on request, roadmapping 1000-2000eur"
         },
         {
             "title" : "Boost your Open Source Project",
             "subtitle": "Partner with us to make your Open Source project a success",
             "features" : [
-                "Let your developers concentrate on what they do best: we help you grow a community",
-                "We will determine if open sourcing is profitable for your project",
-                "We help setting up and/or maintaining your project on a regular basis"
+                "We set up proven automation for your open source project",
+                "We help maintaining the project and keeping the community healthy",
+                "We engage newcomers to raise a thriving community"
             ],
-            "duration": "Flexible",
-            "price": "Price on request, roadmapping 1000-2000eur"
+            "price": "1500eur/mon, 2000eur setup fee"
         }
     ]
 

@@ -90,6 +90,7 @@ nav {
  font-weight: 300;
  letter-spacing: 0.2em;
  text-align: center;
+ text-transform: uppercase;
 }
 .dive-title {
  font-family: "Roboto";
@@ -412,7 +413,7 @@ a:hover > .card {
  }
 }
 .dive-small-title {
- font-size: 18px;
+ font-size: 22px;
  font-weight: 300;
 }
 .plans {
