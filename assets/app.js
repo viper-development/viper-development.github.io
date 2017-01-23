@@ -47,10 +47,19 @@ app.controller('Data', ['$http', function($http , $scope){
         }
     ]
 
-
-
-
     self.plans = [
+        {
+            "title" : "Monthly Quality Session",
+            "subtitle": "Level up - one step every month.",
+            "features" : [
+                "We help you with code quality and team process problems on a monthly basis, saving lots of developer hours wasted on research and ending up with the wrong tool",
+                "One remote up to one-hour session about your problems per month",
+                "If we can't help you right away, we'll research potential solutions for you",
+                "Free trial: if you cancel during any month that one is free"
+            ],
+            "duration": "1 hour/mon+",
+            "price": "800eur/mon"
+        },
         {
             "title" : "Code Quality Workshop",
             "subtitle": "Level up your team - reduce downtimes!",
@@ -63,40 +72,28 @@ app.controller('Data', ['$http', function($http , $scope){
             "price": "2000eur"
         },
         {
-            "title" : "Roadmap Session",
-            "subtitle": "Plan your project/engagement",
-            "features" : [
-                "Access our domain experience about code quality, development processes and open source",
-                "Brainstorm your problems",
-                "Evaluate possible solutions, their gains and risks",
-                "Get a roadmap for every solution including implementation options"
-            ],
-            "duration": "2-8 hours",
-            "price": "500-1600eur"
-        },
-        {
-            "title" : "Enhance your Code Quality",
+            "title" : "Enhance your Code Quality and Team Processes",
             "subtitle": "We work with your teams to implement new policies",
             "features" : [
+                "Access our domain experience about code quality, development processes and open source on site",
                 "Get rid of downtimes",
-                "Get cleaner and more stable code",
-                "Best combined with a Roadmap Session and/or a Code Quality Workshop"
+                "Save developer time",
+                "Get cleaner and more stable code"
             ],
             "duration": "1-4 weeks",
-            "price": "Price on request"
+            "price": "Price on request, roadmapping 1000-2000eur"
         },
         {
             "title" : "Boost your Open Source Project",
             "subtitle": "Partner with us to make your Open Source project a success",
             "features" : [
-                "Determine if open sourcing is profitable for your project",
-                "Open source a product the right way",
-                "We help setting up or maintaining your project",
-                "Best combined with a Roadmap Session"
+                "Let your developers concentrate on what they do best: we help you grow a community",
+                "We will determine if open sourcing is profitable for your project",
+                "We help setting up and/or maintaining your project on a regular basis"
             ],
             "duration": "Flexible",
-            "price": "Price on request"
-}
+            "price": "Price on request, roadmapping 1000-2000eur"
+        }
     ]
 
 
