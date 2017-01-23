@@ -9,8 +9,11 @@ order: 1
     <section id="test1">
       <div class="container">
         <div>
-          <div class="dive-title">Request a Quote</div>
-          <div class="viper-subtitle">HERE'S WHAT WE DO BEST</div>
+          <div class="dive-title">Get Better Development Results in Less Time</div>
+          <div class="dive-small-title">
+              We know how developers work together. We have worked with teams on site and founded big open source projects.
+              Stop wasting time on researching on tooling and workflows to possibly end up with a bad choice.
+          </div>
           <br><br>
           <div class="images row">
             <div class="col-md-12">
@@ -27,11 +30,6 @@ order: 1
                       </ul>
                     </div>
                     <div class="small-fields-group">
-                      <div class="card-action small-fields-2">
-                        <div class="row sfr">
-                          <div class="duration col-md-12">{{plan.duration}}</div>
-                        </div>
-                      </div>
                       <div class="card-action  small-fields">
                         <div class="row sfr">
                           <div class="price-range col-md-12">{{plan.price}}</div>
