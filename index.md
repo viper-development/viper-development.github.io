@@ -45,11 +45,7 @@ order: 1
         <div class="container">
           <div class="disclaimer-pricing">All prices are exclusive VAT.</div>
         </div>
-        <div class="dive-title">Looking for a personalised plan ?</div>
-        <center>
-          <div class="dive-small-title">Just drop us a mail at <a href="mailto:contact@viperdev.io">contact@viperdev.io</a></div>
-        </center>
-        <br><br>
+
         <hr class="mid-sepr">
         <div class="" href="#one!">
           <div class="quotation">
@@ -58,6 +54,11 @@ order: 1
           <div class="author-quote">Jozef Képesi, CTO at Skypicker</div>
         </div>
         <hr class="mid-sepr">
+
+        <div class="dive-title">Looking for a personalised plan ?</div>
+        <center>
+          <div class="dive-small-title">Just drop us a mail at <a href="mailto:contact@viperdev.io">contact@viperdev.io</a></div>
+        </center>
       </div>
   </div>
   <br>
