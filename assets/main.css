@@ -545,3 +545,6 @@ q {
  text-transform: none;
  letter-spacing: 0;
 }
+.card-action a{
+ margin-right: 0 !important;
+}
