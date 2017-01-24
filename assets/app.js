@@ -67,7 +67,7 @@ app.controller('Data', ['$http', function($http , $scope){
                 "We set up proven automation for your open source project",
                 "We help maintaining the project and keeping the community healthy",
                 "We engage newcomers to raise a thriving community",
-                "Setup and Maintenance available seperately if needed"
+                "Setup available seperately if needed"
             ],
             "price": "1500eur/mon<br>2000eur setup fee",
             "form": `<a href="https://viperdev.typeform.com/to/AKlsXq" target="_blank">Get Started</a>`
