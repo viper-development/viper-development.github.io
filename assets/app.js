@@ -31,11 +31,11 @@ app.controller('Data', ['$http', function($http , $scope){
             "bio": "Leader of the <a href='http://coala.io'>coala</a> community team and creator of the LineSpots algorithm."
         },
         {
-                "name" : "Sebastian Latacz",
-                "id" : "seblat",
-                "picture": "https://avatars0.githubusercontent.com/u/18051901",
-                "short_tagline":"Business expert",
-                "bio" : "Founder of <a href='http://gitmate.io'>GitMate</a> and solver of the most complicated business problems."
+            "name" : "Sebastian Latacz",
+            "id" : "seblat",
+            "picture": "https://avatars0.githubusercontent.com/u/18051901",
+            "short_tagline":"Business expert",
+            "bio" : "Founder of <a href='http://gitmate.io'>GitMate</a> and solver of the most complicated business problems."
         },
         {
             "name" : "Hemang Kumar",
@@ -51,11 +51,11 @@ app.controller('Data', ['$http', function($http , $scope){
             "title" : "Monthly Quality Sessions",
             "subtitle": "Level up - one step every month.",
             "features" : [
-                "Talk through your problems (up to an hour)",
+                "Talk through your problems monthly",
                 "Get a summary of your main issues",
                 "3 recommendations on solutions",
                 "Follow up at the end of the month",
-                "Get a recurring ROI with every single session"
+                "Get a recurring ROI with every session"
             ],
             "price": "800eur/mon",
             "form": `<a href="https://viperdev.typeform.com/to/fABj8j" target="_blank">Get Started</a>`
@@ -64,9 +64,9 @@ app.controller('Data', ['$http', function($http , $scope){
             "title" : "Boost your Open Source Project",
             "subtitle": "Partner with us to make your Open Source project a success",
             "features" : [
-                "We set up proven automation for your open source project",
-                "We help maintaining the project and keeping the community healthy",
-                "We engage newcomers to raise a thriving community",
+                "Get proven automation for your open source project",
+                "We keep the community healthy",
+                "We engage newcomers",
                 "Setup available seperately if needed"
             ],
             "price": "1500eur/mon<br>2000eur setup fee",
@@ -76,7 +76,8 @@ app.controller('Data', ['$http', function($http , $scope){
             "title" : "Custom",
             "subtitle": "You thought of something we're perfect for?",
             "features" : [
-                "For workshops or working on premises with your team",
+                "Workshops on premises",
+                "Consulting on premises",
                 "Limitless possibilities"
             ],
             "price": "On Request",
