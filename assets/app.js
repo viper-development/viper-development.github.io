@@ -69,7 +69,7 @@ app.controller('Data', ['$http', function($http , $scope){
                 "We engage newcomers to raise a thriving community"
             ],
             "price": "1500eur/mon<br>2000eur setup fee",
-            "form": "<a href=\"mailto:interest@viperdev.io\">Mail us</a>"
+            "form": `<a href="https://viperdev.typeform.com/to/AKlsXq" target="_blank">Get Started</a>`
         },
         {
             "title" : "Custom",
