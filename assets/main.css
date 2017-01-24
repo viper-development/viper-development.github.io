@@ -34,11 +34,6 @@ hr.mid-sepr {
  font-weight: 300;
  text-align: center;
 }
-.author-quote {
- font-size: 24px;
- font-weight: 300;
- text-align: center;
-}
 .quote-tagline {
  background-color: lightslategrey;
  color: white;
@@ -412,7 +407,7 @@ a:hover > .card {
  font-size: 3em;
  }
 }
-.dive-small-title {
+.small-heading {
  font-size: 22px;
  font-weight: 300;
  text-align: center;

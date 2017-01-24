@@ -41,7 +41,7 @@ order: 4
       <div class="quotation">
       The team's response time was mind blowing - I could get any question answered within minutes!
 </div>
-<div class="author-quote">Viktoria Boss, Researcher</div>
+<div class="small-heading">Viktoria Boss, Researcher</div>
     </div>
     <hr class="mid-sepr">
 </div>
