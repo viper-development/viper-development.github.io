@@ -10,7 +10,7 @@ order: 1
       <div class="container">
         <div>
           <div class="dive-title">Get Better Development Results in Less Time</div>
-          <div class="dive-small-title">
+          <div class="small-heading">
               We know how developers work together. We have worked with teams on site and founded big open source projects.
               Stop wasting time on researching on tooling and workflows to possibly end up with a bad choice.
           </div>
@@ -21,7 +21,7 @@ order: 1
             <div class="quotation">
               Viper Development helped us save at least 2 million euro revenue per year.
             </div>
-            <div class="author-quote">Jozef Képesi, CTO at Skypicker</div>
+            <div class="small-heading">Jozef Képesi, CTO at Skypicker</div>
           </div>
           <hr class="mid-sepr">
 

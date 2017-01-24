@@ -81,7 +81,7 @@ order: 2
         <div class="quotation">
           Viper Development brought new ideas into our system. Their empathy and leadership skills have persuaded developers to want to give up legacy code and difficult habits.
         </div>
-        <div class="author-quote">Stanislav Komanec, Team Lead at Skypicker</div>
+        <div class="small-heading">Stanislav Komanec, Team Lead at Skypicker</div>
       </div>
       <hr class="mid-sepr"><br><br>
       <div class="row">
@@ -100,7 +100,7 @@ order: 2
         <div class="quotation">
           This social talk was the best I have heard in all the conferences this year! Being passionately, very practical and insightful - a rare combination.
         </div>
-        <div class="author-quote">Dmitry Trofimov at PyCon DE, Team Lead at PyCharm</div>
+        <div class="small-heading">Dmitry Trofimov at PyCon DE, Team Lead at PyCharm</div>
       </div>
       <hr class="mid-sepr"><br><br>
     </div>
