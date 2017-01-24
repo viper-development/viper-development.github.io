@@ -38,7 +38,7 @@ order: 2
       </div>
       <div class="viper-subtitle">TO YOUR BUSINESS</div>
       <br><br>
-      <div class="viper-subtitle">BROUGHT TO YOU BY THE CREATORS OF <span style='letter-spacing: 0px !important'><a href="http://coala.io">coala</a></span> &amp; <span style='letter-spacing: 0px !important'><a href="http://gitmate.io">GitMate</a></span></div>
+      <div class="viper-subtitle">BROUGHT TO YOU BY THE CREATORS OF <span class="projects"><a href="http://coala.io">coala</a></span> &amp; <span class="projects"><a href="http://gitmate.io">GitMate</a></span></div>
       <div class="images row">
       </div>
     </div>

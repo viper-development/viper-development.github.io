@@ -115,7 +115,8 @@ nav {
  font-weight: 600;
 }
 .service-desc {
- line-height: 2;
+ font-size: 22px;
+ font-weight: 300;
 }
 body {
  display: flex;
@@ -539,4 +540,8 @@ a:hover > .card {
 }
 q {
  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+.projects{
+ text-transform: none;
+ letter-spacing: 0;
 }
