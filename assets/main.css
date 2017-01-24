@@ -27,7 +27,7 @@ hr.mid-sepr {
  background: -webkit-linear-gradient(left, transparent 0%,#000 50%,transparent 100%);
  background: -moz-linear-gradient(left, transparent 0%,#000 50%,transparent 100%);
  background: linear-gradient(to left, transparent 0%,#000 50%,transparent 100%); border: 0;
- height: 2px;
+ height: 1px;
 }
 .quotation {
  font-size: 2em;
