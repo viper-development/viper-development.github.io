@@ -219,7 +219,7 @@ nav ul li.active {
  margin-left: 0.5em !important;
  margin-right: 0.5em !important;
  margin-top: 0em !important;
- width: 250px;
+ width: 320px;
 }
 .card-title {
  padding-left: 1em;
@@ -433,7 +433,7 @@ a:hover > .card {
 .quote-data {
  background-color: #607d8b !important;
  color: white !important;
- height: 35em;
+ height: 28em;
  padding-left: 2.5em !important;
  padding-right: 2.5em !important;
 }
@@ -490,7 +490,7 @@ a:hover > .card {
 }
 .empty-quote {
  background-color: #eceff1 !important;
- height: 10em;
+ height: 8em;
 }
 .showcase-gi {
  margin-left: 0em !important;
