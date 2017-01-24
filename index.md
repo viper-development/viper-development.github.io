@@ -14,7 +14,18 @@ order: 1
               We know how developers work together. We have worked with teams on site and founded big open source projects.
               Stop wasting time on researching on tooling and workflows to possibly end up with a bad choice.
           </div>
-          <br><br>
+          <br>
+
+          <hr class="mid-sepr">
+          <div class="" href="#one!">
+            <div class="quotation">
+              Viper Development helped us save at least 2 million euro revenue per year.
+            </div>
+            <div class="author-quote">Jozef Képesi, CTO at Skypicker</div>
+          </div>
+          <hr class="mid-sepr">
+
+          <br>
           <div class="images row">
             <div class="col-md-12">
               <div class="container">
@@ -50,15 +61,6 @@ order: 1
         <div class="container">
           <div class="disclaimer-pricing">All prices are exclusive VAT. Recurring plans have a minimum commitment of 3 months: we will need this time together to get you a long term return of investment. Don't worry: from then you can cancel every month.</div>
         </div>
-
-        <hr class="mid-sepr">
-        <div class="" href="#one!">
-          <div class="quotation">
-            Viper Development helped us save at least 2 million euro revenue per year.
-          </div>
-          <div class="author-quote">Jozef Képesi, CTO at Skypicker</div>
-        </div>
-        <hr class="mid-sepr">
       </div>
   </div>
   <br>
