@@ -43,7 +43,7 @@ order: 1
           </div>
         </div>
         <div class="container">
-          <div class="disclaimer-pricing">All prices are exclusive VAT. If the engagement happens on your premises, you will be responsible for covering travel and accommodation cost.</div>
+          <div class="disclaimer-pricing">All prices are exclusive VAT.</div>
         </div>
         <div class="dive-title">Looking for a personalised plan ?</div>
         <center>
@@ -53,9 +53,9 @@ order: 1
         <hr class="mid-sepr">
         <div class="" href="#one!">
           <div class="quotation">
-            Viper Development found a solution that I would have never thought about way above expectations and below budget.
+            Viper Development helped us save at least 2 million euro revenue per year.
           </div>
-          <div class="author-quote">Hannes W. Lampe, Researcher</div>
+          <div class="author-quote">Jozef Képesi, CTO at Skypicker</div>
         </div>
         <hr class="mid-sepr">
       </div>
