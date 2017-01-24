@@ -48,16 +48,17 @@ app.controller('Data', ['$http', function($http , $scope){
 
     self.plans = [
         {
-            "title" : "Monthly Quality Session",
+            "title" : "Monthly Quality Sessions",
             "subtitle": "Level up - one step every month.",
             "features" : [
                 "Talk through your problems (up to an hour)",
                 "Get a summary of your main issues",
                 "3 recommendations on solutions",
                 "Follow up at the end of the month",
-                "You get a recurring ROI with every single session"
+                "Get a recurring ROI with every single session"
             ],
-            "price": "800eur/mon"
+            "price": "800eur/mon",
+            "form": "<a class="button" href="https://viperdev.typeform.com/to/fABj8j" data-mode="1" target="_blank">Get Started</a><script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>"
         },
         {
             "title" : "Boost your Open Source Project",
@@ -67,10 +68,8 @@ app.controller('Data', ['$http', function($http , $scope){
                 "We help maintaining the project and keeping the community healthy",
                 "We engage newcomers to raise a thriving community"
             ],
-            "price": "1500eur/mon<br>2000eur setup fee"
+            "price": "1500eur/mon<br>2000eur setup fee",
+            "form": "<a class="button" href=\"mailto:interest@viperdev.io\">Mail us about your project</a>"
         }
     ]
-
-
-
 }])
