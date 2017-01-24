@@ -69,7 +69,7 @@ app.controller('Data', ['$http', function($http , $scope){
                 "We engage newcomers to raise a thriving community"
             ],
             "price": "1500eur/mon<br>2000eur setup fee",
-            "form": "<a class="button" href=\"mailto:interest@viperdev.io\">Mail us about your project</a>"
+            "form": "<a class=\"button\" href=\"mailto:interest@viperdev.io\">Mail us about your project</a>"
         }
     ]
 }])
