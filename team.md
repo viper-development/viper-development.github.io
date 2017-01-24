@@ -37,11 +37,9 @@ order: 4
    </div>
  </div>
  <hr class="mid-sepr">
- <div class="" href="#one!">
-      <div class="quotation">
-      The team's response time was mind blowing - I could get any question answered within minutes!
-</div>
-<div class="small-heading">Viktoria Boss, Researcher</div>
+ <div class="small-heading">
+      <q>The team's response time was mind blowing - I could get any question answered within minutes!</q>
+      <div ><em>Viktoria Boss, Researcher</em></div>
     </div>
     <hr class="mid-sepr">
 </div>

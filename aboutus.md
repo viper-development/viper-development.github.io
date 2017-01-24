@@ -58,11 +58,9 @@ order: 2
       </div>
       <br><br>
       <hr class="mid-sepr">
-      <div class="" href="#one!">
-        <div class="quotation">
-          Viper Development helped us save at least 2 million euro revenue per year with just a two week contract.
-        </div>
-        <div class="author-quote">Jozef Képesi, CTO at Skypicker</div>
+      <div class="small-heading">
+        <q>viperdev helped us save at least 2 million euro revenue per year with just a two week contract.</q>
+        <div><em>Jozef Képesi, CTO at Skypicker</em></div>
       </div>
       <hr class="mid-sepr"><br><br>
       <div class="row">
@@ -77,11 +75,9 @@ order: 2
       </div>
       <br><br>
       <hr class="mid-sepr">
-      <div class="" href="#two!">
-        <div class="quotation">
-          Viper Development brought new ideas into our system. Their empathy and leadership skills have persuaded developers to want to give up legacy code and difficult habits.
-        </div>
-        <div class="small-heading">Stanislav Komanec, Team Lead at Skypicker</div>
+      <div class="small-heading">
+        <q>viperdev brought new ideas into our system. Their empathy and leadership skills have persuaded developers to want to give up legacy code and difficult habits.</q>
+        <div><em>Stanislav Komanec, Team Lead at Skypicker</em></div>
       </div>
       <hr class="mid-sepr"><br><br>
       <div class="row">
@@ -96,11 +92,9 @@ order: 2
       </div>
       <br><br>
       <hr class="mid-sepr">
-      <div class="" href="#three!">
-        <div class="quotation">
-          This social talk was the best I have heard in all the conferences this year! Being passionately, very practical and insightful - a rare combination.
-        </div>
-        <div class="small-heading">Dmitry Trofimov at PyCon DE, Team Lead at PyCharm</div>
+      <div class="small-heading">
+        <q>This social talk was the best I have heard in all the conferences this year! Being passionately, very practical and insightful - a rare combination.</q>
+        <div><em>Dmitry Trofimov at PyCon DE, Team Lead at PyCharm</em></div>
       </div>
       <hr class="mid-sepr"><br><br>
     </div>

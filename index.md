@@ -17,11 +17,9 @@ order: 1
           <br>
 
           <hr class="mid-sepr">
-          <div class="" href="#one!">
-            <div class="quotation">
-              Viper Development helped us save at least 2 million euro revenue per year.
-            </div>
-            <div class="small-heading">Jozef Képesi, CTO at Skypicker</div>
+          <div class="small-heading">
+            <q>viperdev helped us save at least 2 million euro revenue per year.</q>
+            <div><em>Jozef Képesi, CTO at Skypicker</em></div>
           </div>
           <hr class="mid-sepr">
 

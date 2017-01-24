@@ -29,11 +29,6 @@ hr.mid-sepr {
  background: linear-gradient(to left, transparent 0%,#000 50%,transparent 100%); border: 0;
  height: 1px;
 }
-.quotation {
- font-size: 2em;
- font-weight: 300;
- text-align: center;
-}
 .quote-tagline {
  background-color: lightslategrey;
  color: white;
@@ -541,4 +536,7 @@ a:hover > .card {
 }
 .mailbtn-below {
  padding-left: 2.5em;
+}
+q {
+ quotes: "\201C" "\201D" "\2018" "\2019";
 }
