@@ -65,7 +65,13 @@ order: 1
         </div>
         <div class="container">
           <div class="disclaimer-pricing">
-            All prices are exclusive VAT. Recurring plans have a minimum commitment of 3 months: we will need this time together to get you a long term return of investment. Don't worry: from then you can cancel every month.
+            All prices are exclusive VAT.
+          </div>
+          <div class="disclaimer-pricing">
+            Recurring plans have a minimum commitment of 3 months:
+            we work with humans and humans always need time to adapt.
+            We want you to get the most out of an engagement.
+            Don't worry: from then you can cancel every month.
           </div>
         </div>
       </div>

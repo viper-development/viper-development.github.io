@@ -78,7 +78,7 @@ app.controller('Data', ['$http', function($http , $scope){
             "features" : [
                 "Automated newcomer invitation and onboarding",
                 "Social media promotion",
-                "We turn newcomers into contributors",
+                "A dedicated community expert works with you in your channels",
                 "Includes Monthly Quality Sessions",
             ],
             "price": "3500eur/mon/project<br>2000eur setup/project",
