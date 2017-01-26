@@ -427,7 +427,7 @@ a:hover > .card {
 }
 .quote-data {
  background-color: #607d8b !important;
- height: 27em;
+ height: 25em;
 }
 .small-fields-2 {
  background-color: #37474f !important;
@@ -478,11 +478,11 @@ a:hover > .card {
 .small-name-quote {
  font-weight: 300;
  margin-top: 0.5em;
+ padding-bottom: 18px;
  text-align: center;
 }
 .empty-quote {
  background-color: #eceff1 !important;
- height: 8em;
 }
 .showcase-gi {
  margin-left: 0em !important;
