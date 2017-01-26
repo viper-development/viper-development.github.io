@@ -19,7 +19,7 @@ order: 1
           <hr class="mid-sepr">
           <div class="small-heading">
             <q>viperdev helped us save at least 2 million euro revenue per year.</q>
-            <div><em>Jozef Képesi, CTO at Skypicker</em></div>
+            <div><em>Jozef Képesi, CTO at Kiwi.com</em></div>
           </div>
           <hr class="mid-sepr">
 
