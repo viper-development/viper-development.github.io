@@ -13,7 +13,7 @@ use_spaces = yeah
 htmllint_ignore = optional_tag, protocol
 
 [markdown]
-bears = MarkdownBear, SpaceConsistencyBear, KeywordBear
+bears = SpaceConsistencyBear, KeywordBear
 files = **.md
 language = markdown
 use_spaces = yes
