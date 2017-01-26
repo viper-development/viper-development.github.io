@@ -76,9 +76,6 @@ order: 1
         </div>
       </div>
   </div>
-  <br>
-  <section>
-  </section>
   </section>
 </div>
 </div>
