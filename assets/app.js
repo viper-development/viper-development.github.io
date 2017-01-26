@@ -62,12 +62,12 @@ app.controller('Data', ['$http', function($http , $scope){
                 "Follow up at the end of the month",
                 "Recurring ROI with every session"
             ],
-            "price": "800eur/mon",
+            "price": "1000eur/mon",
             "form": `<a href="https://viperdev.typeform.com/to/fABj8j" target="_blank">Get Started</a>`
         },
         {
             "title" : "Boost Your Open Source Project",
-            "subtitle": "Partner with us to make your project a public success",
+            "subtitle": "Partner with us as a long term investment",
             "benefits" : [
                 "Improve quality and save money",
                 "Expand technology choices",
@@ -76,12 +76,12 @@ app.controller('Data', ['$http', function($http , $scope){
                 "Attract uniquely motivated talent"
             ],
             "features" : [
-                "Proven automation",
-                "We help managing the project contributor friendly",
-                "We blog and tweet",
-                "We engage and guide newcomers to valuable contributors",
+                "Automated newcomer invitation and onboarding",
+                "Social media promotion",
+                "We turn newcomers into contributors",
+                "Includes Monthly Quality Sessions",
             ],
-            "price": "2500eur/mon/project<br>2000eur setup/project",
+            "price": "3500eur/mon/project<br>2000eur setup/project",
             "form": `<a href="https://viperdev.typeform.com/to/AKlsXq" target="_blank">Get Started</a>`
         },
         {
@@ -90,11 +90,13 @@ app.controller('Data', ['$http', function($http , $scope){
             "benefits" : [
                 "Improve code quality",
                 "Improve workflows",
+                "Develop faster",
             ],
             "features" : [
                 "Workshops on premises",
                 "Consulting on premises",
-                "Limitless possibilities"
+                "Limitless possibilities",
+                "Create workflow automation"
             ],
             "price": "On Request",
             "form": "<a href=\"mailto:interest@viperdev.io\">Mail us</a>"
