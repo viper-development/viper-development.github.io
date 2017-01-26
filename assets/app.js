@@ -49,32 +49,48 @@ app.controller('Data', ['$http', function($http , $scope){
     self.plans = [
         {
             "title" : "Monthly Quality Sessions",
-            "subtitle": "Level up - one step every month.",
+            "subtitle": "Level up - one step every month",
+            "benefits" : [
+                "Build a better workflow incrementally",
+                "Start learning, stop being dependent",
+                "Get the right tools for your team",
+            ],
             "features" : [
                 "Talk through your problems monthly",
-                "Get a summary of your main issues",
+                "A monthly summary of your main issues",
                 "3 recommendations on solutions",
                 "Follow up at the end of the month",
-                "Get a recurring ROI with every session"
+                "Recurring ROI with every session"
             ],
             "price": "800eur/mon",
             "form": `<a href="https://viperdev.typeform.com/to/fABj8j" target="_blank">Get Started</a>`
         },
         {
-            "title" : "Boost your Open Source Project",
-            "subtitle": "Partner with us to make your Open Source project a success",
-            "features" : [
-                "Get proven automation for your open source project",
-                "We keep the community healthy",
-                "We engage newcomers",
-                "Setup available seperately if needed"
+            "title" : "Boost Your Open Source Project",
+            "subtitle": "Partner with us to make your project a public success",
+            "benefits" : [
+                "Improve quality and save money",
+                "Expand technology choices",
+                "Give back and increase trust",
+                "Strengthen your tech brand",
+                "Attract uniquely motivated talent"
             ],
-            "price": "1500eur/mon<br>2000eur setup fee",
+            "features" : [
+                "Proven automation",
+                "We help managing the project contributor friendly",
+                "We blog and tweet",
+                "We engage and guide newcomers to valuable contributors",
+            ],
+            "price": "2500eur/mon/project<br>2000eur setup/project",
             "form": `<a href="https://viperdev.typeform.com/to/AKlsXq" target="_blank">Get Started</a>`
         },
         {
             "title" : "Custom",
             "subtitle": "You thought of something we're perfect for?",
+            "benefits" : [
+                "Improve code quality",
+                "Improve workflows",
+            ],
             "features" : [
                 "Workshops on premises",
                 "Consulting on premises",

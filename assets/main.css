@@ -408,10 +408,14 @@ a:hover > .card {
  font-weight: 300;
  text-align: center;
 }
-.plans {
+.bullets {
  font-weight: 300;
+ color: white !important;
+ height: 15em;
+ padding-left: 2.5em !important;
+ padding-right: 2.5em !important;
 }
-.plans > ul > li {
+.bullets > ul > li {
  list-style-type: disc;
 }
 .small-fields-3 {
@@ -423,10 +427,7 @@ a:hover > .card {
 }
 .quote-data {
  background-color: #607d8b !important;
- color: white !important;
- height: 28em;
- padding-left: 2.5em !important;
- padding-right: 2.5em !important;
+ height: 27em;
 }
 .small-fields-2 {
  background-color: #37474f !important;
