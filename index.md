@@ -33,7 +33,14 @@ order: 1
                       <div class="name-quote">{{plan.title}}</div>
                       <div class="small-name-quote">{{ plan.subtitle }}</div>
                     </div>
-                    <div class="card-action quote-data plans">
+                    <div class="card-action bullets">
+                      How do I benefit?
+                      <ul type="square">
+                        <li ng-repeat="benefit in plan.benefits">{{ benefit }}</li>
+                      </ul>
+                    </div>
+                    <div class="card-action quote-data bullets">
+                      What do I get?
                       <ul type="square">
                         <li ng-repeat="feature in plan.features">{{ feature }}</li>
                       </ul>
