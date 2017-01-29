@@ -7,16 +7,9 @@
         <br>
         <span class="footer-navigation">Navigation</span>
         <ul class="footer-nav-links">
-          {% assign sorted_pages = site.pages | sort:"order" %}
-          {% for node in sorted_pages %}
-          {% if node.order %}
-          {% if page.url == node.url %}
-          <li class="active"><a href="{{node.url | prepend: site.baseurl }}" class="active">{{node.title}}</a></li>
-          {% else %}
-          <li><a href="{{node.url | prepend: site.baseurl }}">{{node.title}}</a></li>
-          {% endif %}
-          {% endif %}
-          {% endfor %}
+          <li ng-class="{active:isSet('/home')}"><a ng-class="{active:isSet('/home')}" href="#quote">Home</a></li>
+          <li ng-class="{active:isSet('/aboutus')}"><a ng-class="{active:isSet('/aboutus')}" href="#aboutus">About Us</a></li>
+          <li ng-class="{active:isSet('/team')}"><a ng-class="{active:isSet('/team')}" href="#team">Meet The Team</a></li>
         </ul>
       </div>
       <div class="col-md-4 col-md-offset-2 col-xs-12">
@@ -36,7 +29,7 @@
 <div class="footer-copyright">
   <div class="container">
     © 2017 viperdev
-    <a class="grey-text text-lighten-4 right" href="disclaimer.html">Disclaimer</a>
+    <a class="grey-text text-lighten-4 right" href="#disclaimer">Disclaimer</a>
   </div>
 </div>
 </footer>
