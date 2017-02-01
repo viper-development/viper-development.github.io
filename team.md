@@ -10,7 +10,7 @@ order: 4
   <div class="container">
    <div >
     <div class="dive-title">Meet the Team</div>
-    <div class="viper-subtitle">OUR CONTRACTORS WHO ARE WORKING TOWARDS YOUR NEEDS</div>
+    <div class="viper-subtitle">OUR EXPERTS WHO ARE WORKING TOWARDS YOUR NEEDS</div>
     <br><br>
     <div class="images row">
       <div class="col-md-12">
