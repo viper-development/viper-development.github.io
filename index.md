@@ -20,7 +20,7 @@ order: 1
                 We have worked with teams on and off site to improve their workflow and code quality by applying open source principles.
               </li>
               <li>
-                We developed chatbots and review tools. viperdev shares it's founder and is working together closely with <a href="https://gitmate.io/">GitMate</a> to save more time and revenue, as well as avoiding more bugs along the way of developing software.
+                We develop bots and review tools to speed up, bet better and save revenue. viperdev shares it's founder and is working together closely with <a href="https://gitmate.io/">GitMate</a>.
               </li>
             </ul>
           </p>
