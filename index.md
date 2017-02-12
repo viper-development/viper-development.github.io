@@ -10,10 +10,21 @@ order: 1
       <div class="container">
         <div>
           <div class="dive-title">Get Better Development Results in Less Time</div>
-          <div class="small-heading">
-              We know how developers work together. We have worked with teams on site and founded big open source projects.
-              Stop wasting time on researching on tooling and workflows to possibly end up with a bad choice.
-          </div>
+
+          <div>
+            <ul>
+              <li>
+                We grew <a href="https://coala.io/">coala</a> from below 10 to more than 300 contributors in just one year.
+              </li>
+              <li>
+                We have worked with teams on and off site to improve their workflow and code quality by applying open source principles.
+              </li>
+              <li>
+                We developed chatbots and review tools. viperdev shares it's founder and is working together closely with <a href="https://gitmate.io/">GitMate</a> to save more time and revenue, as well as avoiding more bugs along the way of developing software.
+              </li>
+            </ul>
+          </p>
+
           <br>
 
           <hr class="mid-sepr">
