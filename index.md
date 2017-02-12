@@ -10,20 +10,42 @@ order: 1
       <div class="container">
         <div>
           <div class="dive-title">Get Better Development Results in Less Time</div>
-
-          <div>
-            <ul>
-              <li>
-                We grew <a href="https://coala.io/">coala</a> from below 10 to more than 300 contributors in just one year.
-              </li>
-              <li>
-                We have worked with teams on and off site to improve their workflow and code quality by applying open source principles.
-              </li>
-              <li>
-                We develop bots and review tools to speed up, bet better and save revenue. viperdev shares it's founder and is working together closely with <a href="https://gitmate.io/">GitMate</a>.
-              </li>
-            </ul>
-          </p>
+          <div class="col s12 m7">
+            <div class="card horizontal">
+              <div class="card-image valign-wrapper">
+                <img class="valign card-action-graphic-left" src="./assets/images/coala.png" height=50>
+              </div>
+              <div class="card-stacked valign-wrapper">
+                <div class="card-content valign small-heading">
+                  We grew <a href="https://coala.io/">coala</a> from below 10 to more than 300 contributors in just one year.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m7">
+            <div class="card horizontal">
+              <div class="card-image valign-wrapper">
+                <i class="fa fa-users valign card-action-graphic-left" aria-hidden="true"></i>
+              </div>
+              <div class="card-stacked valign-wrapper">
+                <div class="card-content valign small-heading">
+                  We have worked with teams on and off site to improve their workflow and code quality by applying open source principles.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m7">
+            <div class="card horizontal">
+              <div class="card-image valign-wrapper">
+                <i class="fa fa-code-fork valign card-action-graphic-left" aria-hidden="true"></i>
+              </div>
+              <div class="card-stacked valign-wrapper">
+                <div class="card-content valign small-heading">
+                  We develop bots and review tools to speed up, bet better and save revenue. viperdev shares it's founder and is working together closely with <a href="https://gitmate.io/">GitMate</a>.
+                </div>
+              </div>
+            </div>
+          </div>
 
           <br>
 
