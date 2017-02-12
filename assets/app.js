@@ -76,9 +76,9 @@ app.controller('Data', ['$http', function($http , $scope){
                 "Strengthen your tech brand",
             ],
             "features" : [
+                "A dedicated community expert works with you in your channels",
                 "Automated newcomer invitation and onboarding",
                 "Social media promotion",
-                "A dedicated community expert works with you in your channels",
                 "Includes Monthly Quality Sessions",
             ],
             "price": "2000eur/mon/project<br>2000eur setup/project",
