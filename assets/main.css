@@ -549,3 +549,19 @@ q {
 .card-action a{
  margin-right: 0 !important;
 }
+.card-action-graphic-left{
+    margin-left: 1em;
+}
+.card-action-graphic-right{
+    margin-right: 1em;
+}
+.fa-users.card-action-graphic-left{
+ font-size: 35px !important;
+ margin-left: 0.6em !important;
+ color: darkcyan;
+}
+.fa-code-fork.card-action-graphic-left{
+ font-size: 35px !important;
+ margin-left: 0.7em !important;
+ color: darkorange;
+}
