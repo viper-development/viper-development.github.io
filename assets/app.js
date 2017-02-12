@@ -62,18 +62,18 @@ app.controller('Data', ['$http', function($http , $scope){
                 "Follow up at the end of the month",
                 "Recurring ROI with every session"
             ],
-            "price": "1000eur/mon",
+            "price": "500eur/mon",
             "form": `<a href="https://viperdev.typeform.com/to/fABj8j" target="_blank">Get Started</a>`
         },
         {
             "title" : "Boost Your Open Source Project",
             "subtitle": "Partner with us as a long term investment",
             "benefits" : [
+                "Get great developers on your project",
                 "Improve quality and save money",
                 "Expand technology choices",
                 "Give back and increase trust",
                 "Strengthen your tech brand",
-                "Attract uniquely motivated talent"
             ],
             "features" : [
                 "Automated newcomer invitation and onboarding",
@@ -81,7 +81,7 @@ app.controller('Data', ['$http', function($http , $scope){
                 "A dedicated community expert works with you in your channels",
                 "Includes Monthly Quality Sessions",
             ],
-            "price": "3500eur/mon/project<br>2000eur setup/project",
+            "price": "2000eur/mon/project<br>2000eur setup/project",
             "form": `<a href="https://viperdev.typeform.com/to/AKlsXq" target="_blank">Get Started</a>`
         },
         {
