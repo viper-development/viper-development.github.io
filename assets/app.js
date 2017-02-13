@@ -156,6 +156,3 @@ app.directive('disclaimer', function () {
         templateUrl: '/partials/tabs/disclaimer.html'
     }
 })
-app.controller('Data', ['$http', function($http , $scope){
-    self = this;
-}])
