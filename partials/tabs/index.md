@@ -1,9 +1,3 @@
----
-layout: page
-title: "Home"
-order: 1
----
-
 <div ng-app="viperdev">
   <div ng-controller="Data as dc">
     <section id="test1">

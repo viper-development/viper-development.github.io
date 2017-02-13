@@ -1,9 +1,3 @@
----
-layout: page
-title: "About Us"
-order: 2
----
-
 <section id="test1">
   <div class="container">
     <div>
