@@ -7,7 +7,7 @@ max_lines_per_file = 600
 [html]
 bears = HTMLLintBear, BootLintBear, SpaceConsistencyBear, KeywordBear
 files = **.html
-ignore = _site/**, _includes/github.html
+ignore = _site/**, includes/github.html
 language = HTML
 use_spaces = yeah
 htmllint_ignore = optional_tag, protocol
