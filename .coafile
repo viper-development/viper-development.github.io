@@ -12,18 +12,6 @@ language = HTML
 use_spaces = yeah
 htmllint_ignore = optional_tag, protocol
 
-[markdown]
-bears = SpaceConsistencyBear, KeywordBear
-files = **.md
-language = markdown
-use_spaces = yes
-
-[yaml]
-bears = YAMLLintBear, SpaceConsistencyBear, LineLengthBear, KeywordBear
-files = **.yml
-language = YAML
-use_spaces = yes
-
 [javascript]
 bears = JSComplexityBear
 files = **.js
