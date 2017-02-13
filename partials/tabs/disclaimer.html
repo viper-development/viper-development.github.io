@@ -1,8 +1,3 @@
----
-layout: page
-title: "Disclaimer"
----
-
 <div class="container">
 <h1>Legal Disclosure</h1>
 

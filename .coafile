@@ -1,28 +1,16 @@
 [default]
 bears = LineCountBear, FilenameBear, InvalidLinkBear, coalaBear
 files = **.md, **.html, **.js, **.css, **.yml
-ignore = **.min.(css|js), _site/**
+ignore = **.min.(css|js)
 max_lines_per_file = 600
 
 [html]
 bears = HTMLLintBear, BootLintBear, SpaceConsistencyBear, KeywordBear
 files = **.html
-ignore = _site/**, _includes/github.html
+ignore = includes/github.html, partials/tabs/disclaimer.html
 language = HTML
 use_spaces = yeah
 htmllint_ignore = optional_tag, protocol
-
-[markdown]
-bears = SpaceConsistencyBear, KeywordBear
-files = **.md
-language = markdown
-use_spaces = yes
-
-[yaml]
-bears = YAMLLintBear, SpaceConsistencyBear, LineLengthBear, KeywordBear
-files = **.yml
-language = YAML
-use_spaces = yes
 
 [javascript]
 bears = JSComplexityBear
@@ -32,11 +20,11 @@ ignore = _site/**.js
 [css]
 bears = SpaceConsistencyBear
 files = **.css
-ignore = _site/**.css, **.min.css
+ignore = **.min.css
 use_spaces = yes
 
 [spacing]
 bears = SpaceConsistencyBear
 files = **
-ignore = _site/**, assets/images/** , .git/**
+ignore = assets/images/** , .git/**
 use_spaces = yes
