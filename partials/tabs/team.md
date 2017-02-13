@@ -1,9 +1,3 @@
----
-layout: page
-title: "Meet the Team"
-order: 4
----
-
 <div ng-app="viperdev">
 <div ng-controller="Data as dc">
 <section id="test1">
