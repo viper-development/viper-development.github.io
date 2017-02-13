@@ -19,6 +19,11 @@ app.config(['$routeProvider',
         }).
         otherwise({redirectTo:'/'});
 }]);
+app.controller('TabController',['$location','$scope', function ($location, $scope) {
+    $scope.isSet = function (stab) {
+        return $location.path() == stab
+    }
+}])
 app.controller('Data', ['$http', function($http , $scope){
     self = this;
     self.profile = [
