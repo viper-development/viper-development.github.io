@@ -1,4 +1,24 @@
-var app = angular.module('viperdev', ['ngSanitize'])
+var app = angular.module('viperdev', ['ngSanitize', 'ngRoute'])
+app.config(['$routeProvider',
+    function($routeProvider) {
+        $routeProvider.
+        when('/', {
+            redirectTo: '/home'
+        }).
+        when('/home', {
+            template: '<home></home>'
+        }).
+        when('/aboutus', {
+            template: '<aboutus></aboutus>'
+        }).
+        when('/team', {
+            template: '<team></team>'
+        }).
+        when('/disclaimer', {
+            template: '<disclaimer></disclaimer>'
+        }).
+        otherwise({redirectTo:'/'});
+}]);
 app.controller('Data', ['$http', function($http , $scope){
     self = this;
     self.profile = [
