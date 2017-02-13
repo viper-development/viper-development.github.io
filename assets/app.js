@@ -144,6 +144,18 @@ app.directive('home', function () {
         controllerAs: 'qc'
     }
 })
+app.directive('aboutus', function () {
+    return{
+        restrict:'E',
+        templateUrl: '/partials/tabs/aboutus.html'
+    }
+})
+app.directive('disclaimer', function () {
+    return{
+        restrict:'E',
+        templateUrl: '/partials/tabs/disclaimer.html'
+    }
+})
 app.controller('Data', ['$http', function($http , $scope){
     self = this;
 }])
