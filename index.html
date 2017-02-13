@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html ng-app="viperdev">
+
+<head>
+  <title>viperdev</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="3MxLuQtEelSh5nHREm_lnsR9IRUOFCy6crcXLdK_v7Y">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-sanitize.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular-route.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="/assets/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet"><link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="/assets/app.js" type="application/javascript"></script>
+  <script src="/assets/gitter.js"></script>
+  <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+  <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+  <script src="/assets/sidenav.js"></script>
+  <script src="/assets/analytics.js"></script>
+</head>
+
+<body>
+  <main>
+  <nav ng-controller="TabController">
+    <div class="nav-wrapper">
+    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    <ul class="full hide-on-med-and-down">
+      <li ng-class="{active:isSet('/home')}"><a ng-class="{active:isSet('/home')}" href="#quote">Home</a></li>
+      <li ng-class="{active:isSet('/aboutus')}"><a ng-class="{active:isSet('/aboutus')}" href="#aboutus">About Us</a></li>
+      <li ng-class="{active:isSet('/team')}"><a ng-class="{active:isSet('/team')}" href="#team">Meet The Team</a></li>
+    </ul>
+    <ul class="side-nav" id="mobile-demo">
+      <li ng-class="{active:isSet('/home')}"><a ng-class="{active:isSet('/home')}" href="#quote">Home</a></li>
+      <li ng-class="{active:isSet('/aboutus')}"><a ng-class="{active:isSet('/aboutus')}" href="#aboutus">About Us</a></li>
+      <li ng-class="{active:isSet('/team')}"><a ng-class="{active:isSet('/team')}" href="#team">Meet The Team</a></li>
+    </ul>
+    </div>
+  </nav>
+
+  <div ng-view=""></div>
+
+  </main>
+<ng-include src="'includes/footer.html'"></ng-include>
+<ng-include src="'includes/github.html'"></ng-include>
+</body>
+
+</html>
