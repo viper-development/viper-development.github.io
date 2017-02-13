@@ -78,63 +78,72 @@ app.directive('team', function () {
         controllerAs: "dc"
     }
 })
+app.directive('home', function () {
+    return{
+        restrict: 'E',
+        templateUrl: '/partials/tabs/home.html',
+        controller: function() {
+            self = this
+            self.plans = [
+                {
+                    "title" : "Monthly Quality Sessions",
+                    "subtitle": "Level up - one step every month",
+                    "benefits" : [
+                        "Build a better workflow incrementally",
+                        "Start learning, stop being dependent",
+                        "Get the right tools for your team",
+                    ],
+                    "features" : [
+                        "Talk through your problems monthly",
+                        "A monthly summary of your main issues",
+                        "3 recommendations on solutions",
+                        "Follow up at the end of the month",
+                        "Recurring ROI with every session"
+                    ],
+                    "price": "500eur/mon",
+                    "form": `<a href="https://viperdev.typeform.com/to/fABj8j" target="_blank">Get Started</a>`
+                },
+                {
+                    "title" : "Boost Your Open Source Project",
+                    "subtitle": "Partner with us as a long term investment",
+                    "benefits" : [
+                        "Get great developers on your project",
+                        "Improve quality and save money",
+                        "Expand technology choices",
+                        "Give back and increase trust",
+                        "Strengthen your tech brand",
+                    ],
+                    "features" : [
+                        "A dedicated community expert works with you in your channels",
+                        "Automated newcomer invitation and onboarding",
+                        "Social media promotion",
+                        "Includes Monthly Quality Sessions",
+                    ],
+                    "price": "2000eur/mon/project<br>2000eur setup/project",
+                    "form": `<a href="https://viperdev.typeform.com/to/AKlsXq" target="_blank">Get Started</a>`
+                },
+                {
+                    "title" : "Custom",
+                    "subtitle": "You thought of something we're perfect for?",
+                    "benefits" : [
+                        "Improve code quality",
+                        "Improve workflows",
+                        "Develop faster",
+                    ],
+                    "features" : [
+                        "Workshops on premises",
+                        "Consulting on premises",
+                        "Limitless possibilities",
+                        "Create workflow automation"
+                    ],
+                    "price": "On Request",
+                    "form": "<a href=\"mailto:interest@viperdev.io\">Mail us</a>"
+                }
+            ]
+        },
+        controllerAs: 'qc'
+    }
+})
 app.controller('Data', ['$http', function($http , $scope){
     self = this;
-
-    self.plans = [
-        {
-            "title" : "Monthly Quality Sessions",
-            "subtitle": "Level up - one step every month",
-            "benefits" : [
-                "Build a better workflow incrementally",
-                "Start learning, stop being dependent",
-                "Get the right tools for your team",
-            ],
-            "features" : [
-                "Talk through your problems monthly",
-                "A monthly summary of your main issues",
-                "3 recommendations on solutions",
-                "Follow up at the end of the month",
-                "Recurring ROI with every session"
-            ],
-            "price": "500eur/mon",
-            "form": `<a href="https://viperdev.typeform.com/to/fABj8j" target="_blank">Get Started</a>`
-        },
-        {
-            "title" : "Boost Your Open Source Project",
-            "subtitle": "Partner with us as a long term investment",
-            "benefits" : [
-                "Get great developers on your project",
-                "Improve quality and save money",
-                "Expand technology choices",
-                "Give back and increase trust",
-                "Strengthen your tech brand",
-            ],
-            "features" : [
-                "A dedicated community expert works with you in your channels",
-                "Automated newcomer invitation and onboarding",
-                "Social media promotion",
-                "Includes Monthly Quality Sessions",
-            ],
-            "price": "2000eur/mon/project<br>2000eur setup/project",
-            "form": `<a href="https://viperdev.typeform.com/to/AKlsXq" target="_blank">Get Started</a>`
-        },
-        {
-            "title" : "Custom",
-            "subtitle": "You thought of something we're perfect for?",
-            "benefits" : [
-                "Improve code quality",
-                "Improve workflows",
-                "Develop faster",
-            ],
-            "features" : [
-                "Workshops on premises",
-                "Consulting on premises",
-                "Limitless possibilities",
-                "Create workflow automation"
-            ],
-            "price": "On Request",
-            "form": "<a href=\"mailto:interest@viperdev.io\">Mail us</a>"
-        }
-    ]
 }])
