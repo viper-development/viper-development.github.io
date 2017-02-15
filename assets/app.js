@@ -86,57 +86,48 @@ app.directive('home', function () {
             self = this
             self.plans = [
                 {
-                    "title" : "Monthly Quality Sessions",
-                    "subtitle": "Level up - one step every month",
-                    "benefits" : [
-                        "Build a better workflow incrementally",
-                        "Start learning, stop being dependent",
-                        "Get the right tools for your team",
+                    "title" : "CATALYST",
+                    "subtitle": "Meet demands on a much larger scale",
+                    "problems" : [
+                        "A growing team",
+                        "An expanding set of responsibilities",
                     ],
-                    "features" : [
-                        "Talk through your problems monthly",
-                        "A monthly summary of your main issues",
-                        "3 recommendations on solutions",
-                        "Follow up at the end of the month",
-                        "Recurring ROI with every session"
+                    "solutions" : [
+                        "Helping you choose the right tools for your team and tasks",
+                        "Automating parts of your workflow",
+                        "Boosting your team's abilities with individually tailored workshops",
                     ],
-                    "price": "500eur/mon",
+                    "price": "starting at 500€ / month",
                     "form": `<a href="https://viperdev.typeform.com/to/fABj8j" target="_blank">Get Started</a>`
                 },
                 {
-                    "title" : "Boost Your Open Source Project",
-                    "subtitle": "Partner with us as a long term investment",
-                    "benefits" : [
-                        "Get great developers on your project",
-                        "Improve quality and save money",
-                        "Expand technology choices",
-                        "Give back and increase trust",
-                        "Strengthen your tech brand",
+                    "title" : "STRATEGIST",
+                    "subtitle": "Achieve a more sustainable workflow",
+                    "problems" : [
+                        "Bugs and regressions in your product",
+                        "Unsactisfactory development progress",
                     ],
-                    "features" : [
-                        "A dedicated community expert works with you in your channels",
-                        "Automated newcomer invitation and onboarding",
-                        "Social media promotion",
-                        "Includes Monthly Quality Sessions",
+                    "solutions" : [
+                        "Transitioning you to a more robust development strategy",
+                        "Implementing a powerful testing and continuous integration set up",
+                        "Discussing main issues and possible solutions on a monthly basis",
                     ],
-                    "price": "2000eur/mon/project<br>2000eur setup/project",
+                    "price": "2000€ / month",
                     "form": `<a href="https://viperdev.typeform.com/to/AKlsXq" target="_blank">Get Started</a>`
                 },
                 {
-                    "title" : "Custom",
-                    "subtitle": "You thought of something we're perfect for?",
-                    "benefits" : [
-                        "Improve code quality",
-                        "Improve workflows",
-                        "Develop faster",
+                    "title" : "ACTIVIST",
+                    "subtitle": "Build an open-source community",
+                    "problems" : [
+                        "Open-sourcing your product or tools",
+                        "Building a community around your product or brand",
                     ],
-                    "features" : [
-                        "Workshops on premises",
-                        "Consulting on premises",
-                        "Limitless possibilities",
-                        "Create workflow automation"
+                    "solutions" : [
+                        "Managing your community communication channels",
+                        "Automating newcomer introduction and schooling",
+                        "Promoting you on various social media channels",
                     ],
-                    "price": "On Request",
+                    "price": "1000€ / month",
                     "form": "<a href=\"mailto:interest@viperdev.io\">Mail us</a>"
                 }
             ]
