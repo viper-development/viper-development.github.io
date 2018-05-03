@@ -59,15 +59,15 @@
                   <div class="small-name-quote">{{ plan.subtitle }}</div>
                 </div>
                 <div class="card-action bullets">
-                  How do I benefit?
+                  You struggle with:
                   <ul type="square">
-                    <li ng-repeat="benefit in plan.benefits">{{ benefit }}</li>
+                    <li ng-repeat="benefit in plan.problems">{{ benefit }}</li>
                   </ul>
                 </div>
                 <div class="card-action quote-data bullets">
-                  What do I get?
+                  We help you by:
                   <ul type="square">
-                    <li ng-repeat="feature in plan.features">{{ feature }}</li>
+                    <li ng-repeat="feature in plan.solutions">{{ feature }}</li>
                   </ul>
                 </div>
                 <div class="small-fields-group">
